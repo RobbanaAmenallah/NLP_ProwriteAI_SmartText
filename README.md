@@ -6,6 +6,7 @@
 [![Python](https://img.shields.io/badge/Python-3.10%2B-blue.svg?logo=python&logoColor=white)](https://www.python.org/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.1%2B-ee4c2c.svg?logo=pytorch&logoColor=white)](https://pytorch.org/)
 [![Streamlit](https://img.shields.io/badge/Streamlit-1.35%2B-FF4B4B.svg?logo=streamlit&logoColor=white)](https://streamlit.io/)
+[![Render](https://img.shields.io/badge/Render-Deploy%20Ready-46E3B7.svg?logo=render&logoColor=white)](DEPLOYMENT_RENDER.md)
 [![NLP](https://img.shields.io/badge/Task-Text%20Style%20Transfer%20%26%20GEC-green.svg)](https://en.wikipedia.org/wiki/Natural_language_processing)
 [![License](https://img.shields.io/badge/License-Academic-lightgrey.svg)](LICENSE)
 
@@ -221,8 +222,12 @@ streamlit run ProwriteAI_SmartText_project_v8/app.py
 ```
 RobbanaAmenallah_NLP_Project/
 ├── README.md                                 # Main project documentation & benchmark report
+├── DEPLOYMENT_RENDER.md                      # Complete guide for 1-click cloud hosting on Render
+├── render.yaml                               # Render Infrastructure-as-Code Blueprint
+├── app.py                                    # Root application entrypoint (delegates to package)
 ├── requirements.txt                          # Python dependencies for demo, notebook & eval
 ├── .gitignore                                # Git rules (excludes 1.3GB raw Enron & heavy caches)
+├── .streamlit/config.toml                    # Streamlit server & dark theme configuration
 └── ProwriteAI_SmartText_project_v8/
     ├── app.py                                # Interactive Streamlit demo application
     ├── calibrate_confidence.py               # Confidence threshold calibration script
@@ -300,6 +305,18 @@ You can inspect the pre-executed notebook or retrain the models from scratch:
 jupyter notebook ProwriteAI_SmartText_project_v8/ProwriteAI_SmartText_4Models_Training.ipynb
 ```
 *(Training all 4 models takes ~85 minutes on a standard 2-core CPU, or ~15 minutes on a modern GPU).*
+
+---
+
+## ☁️ Live Cloud Deployment (Render)
+
+This repository is pre-configured for free 1-click cloud hosting on **Render**:
+
+1. Log in to [dashboard.render.com](https://dashboard.render.com/).
+2. Click **New +** → **Blueprint** and select your GitHub repository.
+3. Render reads `render.yaml` automatically, builds the lightweight CPU PyTorch environment, and deploys your Streamlit app live.
+
+For manual Web Service setup, port details, and optimizations, see the step-by-step [Render Deployment Guide](DEPLOYMENT_RENDER.md).
 
 ---
 
