@@ -1,0 +1,291 @@
+# Format: === family_id | category | open=<sets> | close=<sets>
+# "> formal target :: informal variant :: informal variant"
+# "---" starts a new required slot, "---?" a new optional slot.
+
+=== sick_day | workplace | open=person | close=sorry,thanks
+> I am unwell and will not be able to come in on {day}. :: im sick and cant come in {day} :: not feeling good, wont be in on {day} :: i am sick so i will not coming {day}
+> I have a fever, so I will need to take a sick day today. :: got a fever gonna take a sick day today :: i have fever, i need take sick day today
+> I woke up with a severe migraine and will not be able to work today. :: woke up with a really bad migraine cant work today :: my head is killing me, migraine, cant work today
+> I have food poisoning and will need to stay home tomorrow. :: got food poisoning gotta stay home tomorrow :: i ate something bad, food poisoning, i stay home tomorrow
+---
+> {person} has agreed to cover my urgent tasks. :: {person} said they would cover my urgent stuff :: {person} will do my urgent tasks for me
+> I will check my email occasionally in case anything urgent comes up. :: ill check email once in a while in case anything urgent :: i will look my emails sometimes in case of urgent thing
+> I have already informed the rest of the team. :: i already told the rest of the team :: rest of the team knows already
+> I will send a doctor's note when I return. :: ill send the doctors note when im back :: i will bring the paper from doctor when i come back
+---?
+> I will keep you updated on how I am feeling. :: ill keep u posted :: i will update you how i feel
+> I expect to be back the following day. :: should be back the day after :: i think i come back next day
+> Please call me if anything urgent comes up. :: call me if something urgent comes up :: if something is urgent just call me
+
+=== running_late | workplace | open=person | close=sorry
+> I am running about {min} minutes late this morning. :: running like {min} mins late this morning :: i will be late {min} minutes this morning
+> My train has been delayed, so I will be a little late. :: train is delayed so ill be a bit late :: the train delay so i am little late
+> I am stuck in heavy traffic and will arrive later than planned. :: stuck in traffic gonna be later than i planned :: traffic is crazy i arrive late than planned
+> My car broke down on the way to the office, so I will be late. :: car broke down on the way, gonna be late :: my car is broken on the road so i will late
+---
+> Please start the meeting without me. :: start the meeting without me :: u can begin the meeting without me
+> I should arrive at around {mtime}. :: should be there around {mtime} :: i arrive around {mtime} i think
+> I will join the call from my phone until I get to my desk. :: ill join the call from my phone till i get to my desk :: i join from phone until i reach my desk
+> Could you let {person} know that I will be late? :: can u tell {person} im late :: pls tell {person} i will be late
+---?
+> I will make up the time this evening. :: ill make up the time tonight :: ill stay later tonight to make up for it
+> I will catch up on anything I miss. :: ill catch up on whatever i miss :: i will catch the things i miss
+
+=== leave_early | workplace | open=person | close=thanks
+> I need to leave the office early today for a medical appointment. :: need to leave early today, got a doctor appt :: i have to go early today for doctor appointment
+> I would like to leave at {ptime} today to pick up my child from school. :: can i leave at {ptime} today to pick up my kid from school :: i want leave at {ptime} today, have to take my kid from school
+> I have a family matter to attend to and need to leave early this afternoon. :: got a family thing, need to leave early this afternoon :: family issue, i need to go early this afternoon
+> I have a parent-teacher meeting this afternoon, so I need to leave early. :: got a parent teacher meeting this afternoon so need to leave early :: i have meeting with my kids teacher this afternoon so i must leave early
+---
+> I have finished the tasks that were due today. :: finished everything due today :: all the tasks for today are done
+> I will finish the remaining work from home this evening. :: ill finish the rest from home tonight :: the remaining work i will do it from home tonight
+> {person} will handle any client calls while I am away. :: {person} will take client calls while im out :: {person} handle the client calls when im gone
+> I will be reachable by phone if anything urgent comes up. :: u can reach me on my phone if anything urgent :: if urgent call me i will answer
+---?
+> Please let me know if this is a problem. :: lmk if thats a problem :: tell me if is problem
+> I hope that is all right with you. :: hope thats ok :: hope its fine with you
+
+=== wfh_today | workplace | open=person | close=thanks
+> I would like to work from home today. :: wanna work from home today :: i would like work from home today
+> Would it be possible for me to work from home on {day}? :: can i work from home {day} :: is it ok if i wfh on {day}
+> I will be working remotely today because a technician is coming to my apartment. :: working remote today, technician coming to my place :: i work from home today bc a technician is coming to my apartment
+> The roads are flooded in my area, so I will be working from home today. :: roads are flooded where i live so wfh today :: my area is flooded i will work from home today
+---
+> I will be online during my usual hours. :: ill be online my normal hours :: i will be connected the normal hours
+> I can still join all of my scheduled meetings by video. :: can still join all my meetings on video :: i can join all my meetings by video anyway
+> You can reach me on chat or by phone at any time. :: u can reach me on chat or phone anytime :: you can contact me by chat or call me whenever
+> I will make sure the client presentation is finished by the end of the day. :: ill make sure the client presentation is done by end of day :: i will finish client presentation until end of the day
+---?
+> Please let me know if you need me in the office for anything. :: lmk if u need me in the office for anything :: tell me if you need me at office for something
+> I will be back in the office on {day2}. :: back in the office {day2} :: i will come to office {day2}
+
+=== pto_request | workplace | open=person | close=thanks
+> I would like to request vacation leave from {date} to {date2}. :: i want to take vacation from {date} to {date2} :: requesting holiday {date} - {date2}
+> I would like to take {num} days off next month. :: wanna take {num} days off next month :: i want to take {num} day off next month
+> I am planning to take a week off in {month} to visit my family. :: planning to take a week off in {month} to visit family :: i plan a week off in {month} for visit my family
+---
+> I have checked the team calendar, and no one else is away during that period. :: checked the team calendar nobody else is off then :: i looked the team calendar, no one is on vacation that time
+> {person} has offered to cover my responsibilities while I am away. :: {person} offered to cover for me while im away :: {person} said they can do my work when im away
+> I will make sure all of my current tasks are completed before I leave. :: ill make sure all my tasks are done before i go :: i will finish all my current tasks before leaving
+> I will prepare a handover document for the team. :: ill do a handover doc for the team :: i will prepare handover document for team
+---?
+> Please let me know if these dates work for you. :: lmk if these dates work :: tell me if the dates are ok for you
+> I am happy to adjust the dates if needed. :: can change the dates if needed :: i can adjust dates if you need
+
+=== facilities_issue | workplace | open=person,support | close=thanks
+> The chair at my desk is broken and needs to be replaced. :: my chair is broken needs replacing :: the chair on my desk is broke, need new one
+> My monitor keeps flickering, and it is becoming difficult to work. :: my monitor keeps flickering, hard to work :: monitor is flickering all the time its hard to work
+> The air conditioning on the third floor has not been working since {day}. :: ac on third floor not working since {day} :: the air conditioner in third floor is not working from {day}
+> The printer near my desk has been out of toner for a week. :: printer next to my desk is out of toner for a week :: printer near my desk out of toner since one week
+---
+> Could someone from facilities take a look at it? :: can someone from facilities check it :: can facilities come look at it
+> I would appreciate it if this could be fixed this week. :: would be great if its fixed this week :: please fix it this week if possible
+> I have already submitted a ticket, but I have not received a response. :: already sent a ticket but no answer :: i submit a ticket already but nobody answer
+> Please let me know if you need any additional details. :: lmk if u need more details :: tell me if you need more info
+---?
+> In the meantime, I am working from the meeting room. :: meanwhile im working from the meeting room :: for now i sit in the meeting room
+> Several colleagues have mentioned the same problem. :: a few ppl mentioned the same problem :: other colleagues have same problem too
+
+=== out_of_office | workplace | open=team,person | close=none
+> I will be out of the office from {date} to {date2}. :: im out of office {date} to {date2} :: i will be off from {date} until {date2}
+> I will be attending a conference in {city} next week. :: going to a conference in {city} next week :: next week i am at a conference in {city}
+> I will be on a business trip until {day}. :: on a business trip till {day} :: i am in business trip until {day}
+---
+> I will not have regular access to email during that time. :: wont have much email access then :: i will not check my emails regularly
+> For urgent matters, please contact {person}. :: for urgent stuff contact {person} :: if urgent pls write to {person}
+> I will respond to all messages when I return. :: ill reply to everything when im back :: i answer all messages when i return
+> {person} will be your point of contact while I am away. :: {person} is ur contact while im away :: {person} will be contact person when i am away
+---?
+> Thank you for your patience. :: thx for ur patience :: thanks for being patient
+> I will check my phone once a day for urgent calls. :: ill check my phone once a day for urgent calls :: i check phone one time a day for urgent calls
+
+=== request_report | prof_request | open=person | close=thanks
+> Could you please send me the {doc} by {day}? :: can u send me the {doc} by {day} :: pls send me the {doc} until {day}
+> Could you send me the latest version of the {doc}? :: can u send the latest version of the {doc} :: send me last version of the {doc} pls
+> I need the {doc} before my meeting with {person}. :: need the {doc} before my meeting w {person} :: i need the {doc} before my meeting with {person}
+> Could you share the {doc} with me when you get a chance? :: share the {doc} with me when u can :: can you share me the {doc} when you have time
+---
+> I need it to finish the presentation for the client. :: need it to finish the client presentation :: i need it for finish the presentation for client
+> The finance team has asked me to review the numbers. :: finance asked me to review the numbers :: finance team want me to check the numbers
+> I want to make sure our figures are consistent. :: wanna make sure our numbers match :: i want to be sure our figures are same
+> I am preparing a summary for the management meeting. :: im preparing a summary for the management meeting :: i prepare summary for management meeting
+---?
+> A draft version would be fine if the final version is not ready yet. :: a draft is fine if final isnt ready :: draft is ok if final one not ready yet
+> Please let me know if there are any delays. :: lmk if any delays :: tell me if there is delay
+
+=== request_access | prof_request | open=person,support | close=thanks
+> Could you please give me access to the {folder} folder? :: can u give me access to the {folder} folder :: i need access to {folder} folder pls
+> I do not have permission to open the {folder} folder on the shared drive. :: i dont have permission to open the {folder} folder on shared drive :: i cant open {folder} folder in the shared drive, no permission
+> I am unable to edit the documents in the {folder} folder. :: cant edit the docs in the {folder} folder :: i cannot edit documents in {folder} folder
+> I keep getting an "access denied" message when I try to open the {folder} folder. :: keep getting access denied when i open the {folder} folder :: always access denied message when i try open {folder} folder
+---
+> I need access to update the files for the {project} project. :: need access to update files for {project} :: i need access for update the {project} project files
+> My manager asked me to review the documents there by {day}. :: my manager asked me to check the docs there by {day} :: my manager want me review documents there until {day}
+> I recently joined the team and still do not have the correct permissions. :: just joined the team and still dont have the right permissions :: i am new in the team and i dont have permissions yet
+> {person} suggested that I contact you about this. :: {person} said to contact u about this :: {person} told me ask you about this
+---?
+> Read-only access would be enough for now. :: read only access is enough for now :: only reading access is ok for now
+> Please let me know if I need to submit a formal request. :: lmk if i need to send a formal request :: tell me if i must do official request
+
+=== request_review_draft | prof_request | open=person | close=thanks
+> Could you review my draft of the {draft} when you have time? :: can u look at my draft of the {draft} when u have time :: can you check my {draft} draft when you are free
+> I have attached the first draft of the {draft} for your feedback. :: attached first draft of the {draft} for ur feedback :: i attach first draft of {draft}, need feedback
+> Would you be able to give me feedback on the {draft} before {day}? :: could u give feedback on the {draft} before {day} :: can you feedback my {draft} before {day}
+---
+> I am not entirely sure about the introduction. :: not really sure about the intro :: i am not so sure about introduction
+> I would appreciate your thoughts on the overall structure. :: would like ur thoughts on the overall structure :: what do you think about the structure in general
+> Please feel free to make changes directly in the document. :: feel free to edit directly in the doc :: you can change things directly in document
+> I tried to keep it under {num} pages. :: tried to keep it under {num} pages :: i try to keep it less than {num} pages
+---?
+> There is no rush, so please take your time. :: no rush take ur time :: no hurry, take your time
+> I need to submit it by the end of the week. :: need to submit by end of the week :: i have to send it end of week
+
+=== request_recommendation | prof_request | open=person | close=thanks
+> I am applying for a {role} position at another company. :: im applying for a {role} job at another company :: i apply to {role} position in other company
+> I am applying for a master's program in {field}. :: applying to a masters program in {field} :: i am applying for master in {field}
+> I have been invited to the final round of interviews for a {role} position. :: got invited to final interviews for a {role} job :: i am in final round interview for {role} position
+---
+> Would you be willing to write a reference letter for me? :: would u be ok writing a reference letter for me :: can you write me reference letter
+> Would you be comfortable serving as one of my references? :: would u be ok being one of my references :: can i put you as my reference
+> I would be very grateful if you could provide a recommendation. :: would be super grateful if u could give a recommendation :: i will be very thankful if you give me recommendation
+---?
+> The deadline to submit it is {date}. :: deadline is {date} :: the deadline to submit is {date}
+> I can send you my updated resume and a summary of the projects we worked on together. :: i can send my updated cv and summary of projects we did together :: i send you my new resume and list of our projects together
+---?
+> I completely understand if you are too busy. :: totally get it if ur too busy :: i understand if you are busy
+
+=== request_expense_approval | prof_request | open=person | close=thanks
+> I would like to request approval to spend {amount} on new software licenses. :: need approval for {amount} for new software licenses :: i want approval to buy software licenses for {amount}
+> Could you approve my travel expenses of {amount} for the client visit? :: can u approve my travel expenses {amount} for client visit :: pls approve travel expense of {amount} for the client visit
+> I need your approval to order {num} new laptops for the design team. :: need ur ok to order {num} new laptops for design team :: i need approve for order {num} laptops for design team
+> I would like approval to register for a training course that costs {amount}. :: wanna sign up for a training course, costs {amount}, need approval :: can i get approval for training course of {amount}
+---
+> The current tools are slowing down our work. :: current tools slow us down :: the tools we have now make our work slow
+> This expense is already included in this quarter's budget. :: its already in this quarters budget :: this cost is already in budget of this quarter
+> I have attached the receipts and a short cost breakdown. :: attached receipts and a short cost breakdown :: i attach receipts and small breakdown of costs
+> The supplier's offer is only valid until {day}. :: suppliers offer is valid till {day} only :: offer from supplier valid only until {day}
+---?
+> Please let me know if you need any additional information. :: lmk if u need more info :: tell me if you need other information
+
+=== request_data | prof_request | open=person | close=thanks
+> Could you send me the sales figures for {month}? :: can u send me sales numbers for {month} :: i need sales figures of {month}
+> I need the number of new customers we gained last quarter. :: need number of new customers from last quarter :: how many new customers we got last quarter, i need it
+> Could you share the website traffic data for the past {num} weeks? :: can u share website traffic data for last {num} weeks :: send me website traffic for past {num} weeks pls
+> I need the latest headcount for each department. :: need latest headcount per department :: i need last headcount for every department
+---
+> I am preparing the quarterly report for the board. :: im working on quarterly report for the board :: i prepare quarterly report for board
+> We need these numbers to plan next year's budget. :: need these numbers to plan next years budget :: we need numbers for plan budget of next year
+> {person} asked me to include them in the presentation on {day}. :: {person} asked me to put them in the presentation {day} :: {person} want them in presentation on {day}
+---?
+> A spreadsheet format would be ideal. :: spreadsheet would be best :: excel format is better
+> Rough estimates are fine if exact figures are not available. :: rough numbers ok if exact ones arent available :: estimates are fine if exact numbers not ready
+
+=== request_intro | prof_request | open=person | close=thanks
+> Could you introduce me to {person} from the legal team? :: can u intro me to {person} from legal :: can you introduce me with {person} in legal team
+> I would appreciate it if you could connect me with {person} in procurement. :: would be great if u could connect me w {person} in procurement :: pls connect me with {person} from procurement
+> Would you mind putting me in touch with {person}? :: could u put me in touch with {person} :: can you give me contact of {person}
+---
+> I have some questions about the new vendor contracts. :: got some questions about the new vendor contracts :: i have questions about new vendor contracts
+> I think {person} could help us with the {project} project. :: think {person} could help us w {project} :: i think {person} can help us in {project} project
+> We are working on similar projects and could share ideas. :: we work on similar stuff and could share ideas :: we have similar projects, we can share ideas
+---?
+> A short email introduction would be perfect. :: a quick email intro would be perfect :: just short intro by email is perfect
+> I am happy to set up the meeting myself. :: i can set up the meeting myself :: i will organize the meeting by myself
+---?
+> I am free most afternoons this week. :: im free most afternoons this week :: i am available afternoons this week mostly
+> It would only take {min} minutes of their time. :: would only take {min} mins of their time :: it takes only {min} minutes from their time
+
+=== propose_meeting | meeting | open=person,team | close=thanks,reply
+> Could we schedule a meeting on {day} to discuss the {project} project? :: can we have a meeting {day} to talk about {project} :: lets make a meeting on {day} for discuss {project}
+> I would like to set up a short call this week to review the budget. :: want to set up a quick call this week to go over budget :: i want to do short call this week for review budget
+> Are you available for a meeting on {day} at {time}? :: r u free {day} at {time} for a meeting :: are you available {day} {time} for meeting
+> Could we find some time this week to talk about the client feedback? :: can we find time this week to talk about client feedback :: we should talk this week about client feedback, when you are free
+---
+> It should take about {min} minutes. :: should take like {min} mins :: it takes around {min} minutes
+> I would like {person} to join us as well. :: want {person} to join too :: {person} should join also
+> We can meet in my office or online, whichever you prefer. :: we can meet in my office or online whatever u prefer :: my office or online, as you like
+> I will send a calendar invitation once we agree on a time. :: ill send a calendar invite once we agree on a time :: i send calendar invite when we agree time
+---?
+> Please suggest another time if that does not work for you. :: suggest another time if that doesnt work :: if its not good for you propose other time
+
+=== reschedule_meeting | meeting | open=person | close=sorry
+> I need to reschedule our meeting on {day}. :: need to reschedule our meeting {day} :: i have to move our meeting of {day}
+> Unfortunately, I will not be able to attend our meeting at {time}. :: cant make our {time} meeting :: unfortunately i wont be able to come to meeting at {time}
+> Could we move our call from {day} to {day2}? :: can we move our call from {day} to {day2} :: is possible to change call from {day} to {day2}
+---
+> A client meeting has been scheduled at the same time. :: a client meeting got scheduled same time :: i have client meeting same time
+> I have to attend an urgent training session. :: i have urgent training i have to go to :: there is urgent training i must attend
+> I am still waiting for the data we planned to discuss. :: still waiting on the data we wanted to discuss :: i am waiting still for data we need to discuss
+---?
+> Would {day2} afternoon work for you instead? :: would {day2} afternoon work instead :: is {day2} afternoon ok for you
+> I am free any time after {time2} on {day2}. :: im free anytime after {time2} on {day2} :: i am free after {time2} on {day2} anytime
+> Please let me know a time that suits you next week. :: lmk a time that works for u next week :: tell me what time is good for you next week
+
+=== cancel_meeting | meeting | open=team,person | close=sorry,none
+> I am afraid I have to cancel tomorrow's meeting. :: gotta cancel tomorrows meeting :: i must cancel the meeting tomorrow
+> The weekly team meeting on {day} is canceled. :: weekly team meeting {day} is cancelled :: weekly meeting on {day} is off
+> We will not be holding the project review meeting this week. :: we wont have the project review this week :: project review meeting not happening this week
+> Today's stand-up meeting is canceled. :: todays standup is cancelled :: stand up today is cancelled
+---
+> Most of the team will be at the training workshop. :: most of the team is at the training workshop :: the majority of team will be in training workshop
+> The client has asked to postpone the review. :: client asked to postpone the review :: the client want to postpone review
+> There are no new updates to discuss yet. :: nothing new to discuss yet :: we dont have updates yet
+> {person} is out sick today. :: {person} is out sick today :: {person} is sick today
+---?
+> I will share a short written update instead. :: ill send a short written update instead :: i will share small update by writing
+> We will meet again at the usual time next week. :: we meet again usual time next week :: next week we meet normal time
+
+=== confirm_meeting | meeting | open=person | close=see
+> I am writing to confirm our meeting on {day} at {time}. :: just confirming our meeting {day} at {time} :: confirm meeting on {day} {time}
+> Our call with the client is confirmed for {day} at {time}. :: client call confirmed for {day} {time} :: call with client is confirmed {day} at {time}
+> I can confirm that I will attend the workshop on {date}. :: confirming ill be at the workshop {date} :: yes i will attend workshop on {date}
+> I am happy to confirm that the interview is scheduled for {day} at {time}. :: confirming the interview is {day} at {time} :: the interview is confirmed on {day} {time}
+---
+> We will meet in Room {room}. :: we'll meet in room {room} :: meeting is in room {room}
+> I will share the video link one hour before the meeting. :: ill send the video link one hour before :: i share the link of video one hour before
+> Please bring the latest sales figures. :: pls bring latest sales numbers :: bring last sales figures please
+> {person} will also be joining us. :: {person} is joining too :: {person} will join also
+---?
+> Please let me know if anything changes. :: lmk if anything changes :: tell me if something change
+> I will send the agenda the day before. :: ill send the agenda the day before :: i send the agenda one day before
+
+=== availability_check | meeting | open=person,team | close=thanks
+> What times are you available next week? :: what times r u free next week :: when you are available next week?
+> Do you have any free time on {day} afternoon? :: u have any free time {day} afternoon :: are you free {day} afternoon
+> Could you let me know your availability for a call this week? :: lmk when ur free for a call this week :: tell me your availability for call this week
+> When would be a good time for us to talk? :: when is good to talk :: when we can talk?
+---
+> I would like to go over the results of the survey. :: want to go over the survey results :: i want to discuss about survey results
+> We need to finalize the schedule for the product launch. :: we need to finalize the product launch schedule :: we must finish schedule for product launch
+> I have a few questions about the new contract. :: got a few questions about the new contract :: i have some questions on new contract
+> I would like to discuss the hiring plan for next quarter. :: wanna discuss hiring plan for next quarter :: i want discuss the hiring plan of next quarter
+---?
+> It should not take more than {min} minutes. :: shouldnt take more than {min} mins :: not more than {min} minutes
+> I am flexible most mornings. :: im flexible most mornings :: mornings are good for me mostly
+
+=== room_booking | meeting | open=person,support | close=thanks
+> Could you book a meeting room for {num} people on {day}? :: can u book a meeting room for {num} ppl {day} :: please reserve room for {num} persons on {day}
+> I would like to reserve the large conference room for {date}. :: want to reserve the big conference room for {date} :: i want book the large conference room {date}
+> Is Room {room} available on {day} from {time} to {time2}? :: is room {room} free {day} from {time} to {time2} :: room {room} available on {day} {time} - {time2}?
+> Could you reserve a quiet room for a job interview on {day} morning? :: can u reserve a quiet room for an interview {day} morning :: i need quiet room for job interview {day} morning
+---
+> We will need a projector and a whiteboard. :: need a projector and whiteboard :: we need projector and white board
+> Some participants will join remotely, so we will need video conferencing equipment. :: some ppl join remote so need video conf equipment :: some people join online, we need video conference stuff
+> Please arrange coffee and water for the attendees. :: pls arrange coffee and water for attendees :: can you put coffee and water for the people
+> We will need the room for about {num} hours. :: need the room for like {num} hours :: we need room around {num} hours
+---?
+> Please confirm once the booking is complete. :: pls confirm when booked :: confirm me when booking is done
+> The meeting is with an external client. :: its a meeting with an external client :: meeting is with external client
+
+=== agenda_share | meeting | open=team | close=questions,none
+> I have attached the agenda for {day}'s meeting. :: attached agenda for {day}s meeting :: i attach the agenda of meeting on {day}
+> Here is the agenda for tomorrow's planning session. :: heres agenda for tomorrows planning session :: this is agenda for planning session tomorrow
+> I am sharing the agenda for our quarterly review. :: sharing the agenda for quarterly review :: i share agenda for the quarterly review
+---
+> We will start with a review of last month's results. :: we start with last months results :: first we review results of last month
+> {person} will present the new marketing strategy. :: {person} will present new marketing strategy :: {person} present the new marketing plan
+> We will finish by assigning action items. :: we finish by assigning action items :: in the end we give action items
+> There will be time for questions at the end. :: there will be time for questions at the end :: we have time for questions in the end
+---?
+> Please review the attached documents before the meeting. :: pls review the attached docs before the meeting :: read attached documents before meeting please
+> Let me know if you would like to add any topics. :: lmk if u wanna add any topics :: tell me if you want add topics

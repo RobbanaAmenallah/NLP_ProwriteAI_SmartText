@@ -1,0 +1,333 @@
+=== order_not_arrived | customer_service | open=support | close=thanks,reply
+> I placed an order on {date}, but it has not arrived yet. :: i ordered on {date} and it still didnt arrive :: i make order on {date} but its not arrived yet
+> My order #{order} was supposed to arrive {num} days ago. :: my order #{order} was supposed to come {num} days ago :: order {order} should arrive {num} days ago
+> I am still waiting for the {item} I ordered two weeks ago. :: still waiting for the {item} i ordered 2 weeks ago :: i am waiting still the {item} i order two weeks ago
+---
+> The tracking page has not been updated since {day}. :: tracking page hasnt updated since {day} :: tracking is not updated from {day}
+> The tracking information says it was delivered, but I never received it. :: tracking says delivered but i never got it :: it says delivered on tracking but i didnt receive nothing
+> I have not received any shipping confirmation. :: didnt get any shipping confirmation :: i have no shipping confirmation
+> My neighbors have not received the package either. :: neighbors didnt get it either :: my neighbors dont have the package also
+---
+> Could you please tell me where my order is? :: can u tell me where my order is :: where is my order please?
+> I need it before the weekend for a family event. :: need it before the weekend for a family thing :: i need it before weekend for family event
+> If it cannot be delivered this week, I would like a full refund. :: if it cant come this week i want a full refund :: if you cant deliver this week i want full refund
+> Could you send a replacement as soon as possible? :: can u send a replacement asap :: please send replacement as soon as possible
+---?
+> My order number is #{order}. :: order number is #{order} :: my order number #{order}
+
+=== refund_request | customer_service | open=support | close=thanks,reply
+> I would like to request a refund for the {item} I bought last week. :: i want a refund for the {item} i bought last week :: i would like refund for {item} i buy last week
+> I returned the {item} on {date}, but I have not received my refund yet. :: returned the {item} on {date} but still no refund :: i send back the {item} on {date} and refund didnt come yet
+> I canceled my order within {num} hours, so I would like my money back. :: cancelled my order within {num} hours so i want my money back :: i cancel my order in {num} hours so i want the money back
+---
+> The product did not match the description on your website. :: product didnt match the description on ur website :: the product is not like the description in your website
+> It stopped working after only two days. :: it stopped working after just 2 days :: it stop working after only two days
+> The size was wrong, even though I followed the size chart. :: size was wrong even tho i followed the size chart :: the size is wrong but i followed size chart
+> I changed my mind before the item was shipped. :: changed my mind before it shipped :: i change my mind before item was shipped
+---
+> The total amount was {amount}. :: total was {amount} :: i paid {amount} total
+> I have attached a photo of the receipt. :: attached a pic of the receipt :: i attach photo of receipt
+> Please refund the payment to my original credit card. :: pls refund to my original credit card :: refund the money to my credit card i used please
+> Your return policy says refunds are processed within {num} business days. :: ur return policy says refunds take {num} business days :: in your return policy refunds is in {num} business days
+---?
+> Please let me know if you need any further information. :: lmk if u need anything else from me :: tell me if you need more information
+
+=== damaged_item | customer_service | open=support | close=thanks,reply
+> The {item} I received yesterday was damaged. :: the {item} i got yesterday came damaged :: i received the {item} yesterday and is damaged
+> My order arrived today, but the box was crushed and the {item} is broken. :: order came today but box was crushed and {item} is broken :: order arrive today, box crushed and the {item} broken
+> When I opened the package, I noticed that the {item} was scratched. :: when i opened the package i saw the {item} was scratched :: i open package and see the {item} scratched
+---
+> Some of the parts are also missing. :: some parts are missing too :: also some parts missing
+> I have attached photos of the damage. :: attached pics of the damage :: i attach photos of damage
+> It looks like it was used before. :: looks like it was used before :: it seem used before
+> I have not used it at all. :: havent used it at all :: i didnt use it at all
+---
+> I would like a replacement as soon as possible. :: i want a replacement asap :: i want replacement as soon as possible
+> Could you arrange for someone to pick it up? :: can u arrange someone to pick it up :: can you send someone take it back?
+> Please let me know how to return it. :: lmk how to return it :: tell me how i return it
+> I would prefer a full refund rather than a replacement. :: id rather get a full refund than a replacement :: i prefer full refund not replacement ~
+---?
+> This was meant to be a gift, so I am quite disappointed. :: it was supposed to be a gift so im pretty disappointed :: it was a gift so i am very disappointed
+
+=== billing_double_charge | customer_service | open=support | close=thanks,reply
+> I was charged twice for my last order. :: i got charged twice for my last order :: you charge me two times for my last order
+> My credit card statement shows two payments of {amount} for the same purchase. :: my card statement shows two payments of {amount} for the same thing :: in my card statement there is two payments {amount} for same purchase
+> I noticed an unexpected charge of {amount} on my account this month. :: noticed a weird charge of {amount} on my account this month :: i see unexpected charge {amount} on my account this month
+---
+> I only placed one order. :: i only ordered once :: i make only one order
+> I did not authorize this payment. :: i didnt authorize this payment :: i never authorized this payment
+> I canceled my subscription last month. :: i cancelled my subscription last month :: i cancel my subscription last month
+---
+> Could you please look into this and refund the extra charge? :: can u look into this and refund the extra charge :: please check and refund extra charge
+> I have attached a screenshot of my bank statement. :: attached a screenshot of my bank statement :: i attach screenshot of bank statement
+> Please confirm once the issue has been resolved. :: pls confirm when its fixed :: confirm me when problem is solved
+> I would like to know why this happened. :: id like to know why this happened :: i want know why this happen
+---?
+> My account email is the same one I am writing from. :: my account email is this one :: the email of my account is the same i write from
+
+=== agent_status_update | customer_service | open=agent | close=questions,none
+> Thank you for contacting us about your recent order. :: thanks for reaching out about ur recent order :: thank you for contact us about your order
+> I am following up on the issue you reported on {day}. :: following up on the issue u reported {day} :: i follow up the problem you report on {day}
+> We have received your request regarding ticket #{ticket}. :: we got ur request about ticket #{ticket} :: we received your request for ticket #{ticket}
+---
+> Our technical team is currently investigating the problem. :: our tech team is looking into it now :: our technical team investigate the problem now
+> We have confirmed that the issue was caused by an error in our system. :: we confirmed the issue was an error in our system :: we confirm the problem was error of our system
+> Your case has been escalated to a senior specialist. :: ur case has been escalated to a senior specialist :: your case is escalated to senior specialist
+> We are waiting for an update from the courier. :: waiting for an update from the courier :: we wait update from the courier
+---
+> We expect to have a solution within {num} business days. :: should have a fix within {num} business days :: we expect solution in {num} business days
+> We will contact you as soon as we have more information. :: well contact u as soon as we know more :: we contact you when we have more information
+> In the meantime, you can continue using your account as usual. :: meanwhile u can keep using ur account as normal :: meanwhile you can use your account normally
+---?
+> We apologize for any inconvenience this may have caused. :: sorry for any inconvenience :: we are sorry for inconvenience
+> We appreciate your patience. :: appreciate ur patience :: thank you for patience
+
+=== agent_refund_processed | customer_service | open=agent | close=questions,none
+> Your refund of {amount} has been processed. :: ur refund of {amount} has been processed :: refund {amount} is processed
+> We have approved your return request for the {item}. :: we approved ur return request for the {item} :: your return for {item} is approved
+> We have issued a full refund for order #{order}. :: we issued a full refund for order #{order} :: full refund for order #{order} is done
+---
+> The money should appear in your account within {num} business days. :: money should show up in ur account in {num} business days :: you will see money in account in {num} business days
+> The refund was sent to your original payment method. :: refund went to ur original payment method :: refund is sent to the payment method you used
+> You will receive a confirmation email shortly. :: ull get a confirmation email soon :: you receive confirmation email soon
+---
+> You do not need to return the damaged item. :: u dont need to send back the damaged item :: no need to return damaged item
+> We have also added a discount code to your account for your next purchase. :: we also added a discount code to ur account for next time :: we put a discount code in your account for next purchase
+> Please keep the return receipt until the refund appears. :: keep the return receipt till the refund shows up :: keep return receipt until you see refund
+---?
+> Thank you for shopping with us. :: thx for shopping with us :: thanks for shopping with us
+
+=== subscription_cancel | customer_service | open=support | close=thanks
+> I would like to cancel my monthly subscription. :: i wanna cancel my monthly subscription :: i want cancel my monthly subscription
+> Please cancel my premium plan at the end of this billing period. :: pls cancel my premium plan at end of this billing period :: cancel my premium plan end of billing period please
+> I would like to downgrade my account to the free plan. :: want to downgrade to the free plan :: i want change my account to free plan
+---
+> I am no longer using the service very often. :: not really using the service much anymore :: i dont use the service a lot now
+> The price has become too high for my budget. :: price got too high for my budget :: the price is too much for my budget now
+> I have found another service that better meets my needs. :: found another service that fits my needs better :: i find other service better for me
+> I am moving abroad and will not need it anymore. :: moving abroad and wont need it anymore :: i move abroad so i dont need anymore
+---
+> I could not find the cancellation option in the app. :: couldnt find the cancel option in the app :: i cant find where to cancel in the app
+> Please make sure that I am not charged again next month. :: pls make sure im not charged again next month :: dont charge me again next month please
+> Could you confirm the cancellation by email? :: can u confirm the cancellation by email :: confirm me by email the cancellation
+---?
+> I have been happy with the service overall. :: was happy with the service overall :: in general i was happy with the service
+
+=== missed_class_prof | academic | open=prof | close=thanks
+> I am sorry, but I missed today's lecture for {course}. :: sorry i missed todays lecture for {course} :: sorry i miss the lecture today of {course}
+> I was unable to attend class on {day} because I was sick. :: couldnt come to class {day} bc i was sick :: i could not attend class {day} because sick
+> I will not be able to attend the lab session on {day}. :: wont be able to come to the lab session {day} :: i cant come to lab session on {day}
+---
+> I had a medical appointment that I could not reschedule. :: had a doctor appointment i couldnt move :: i had medical appointment i cannot change
+> My bus broke down on the way to campus. :: my bus broke down on the way to campus :: the bus broke on the way to campus
+> I had to attend a family funeral. :: had to go to a family funeral :: i must go to family funeral
+> I have a job interview at the same time. :: i have a job interview same time :: i have job interview in same time
+---
+> Could you tell me what material was covered? :: can u tell me what was covered :: what material you covered please?
+> Are the lecture slides available online? :: are the lecture slides online :: the slides of lecture are online?
+> Is there anything I should prepare for the next class? :: anything i should prepare for next class :: i need to prepare something for next class?
+> I will ask {person} to share their notes with me. :: ill ask {person} for their notes :: i will ask {person} to give me notes
+---?
+> I can provide a doctor's note if needed. :: can give a doctors note if needed :: i can bring doctor note if you need
+
+=== assignment_question | academic | open=prof | close=thanks
+> I have a question about the {course} assignment that is due on {day}. :: got a question about the {course} assignment due {day} :: i have question about the assignment of {course} for {day}
+> I am a little confused about the instructions for the final project. :: kinda confused about the final project instructions :: i am confused little bit about instructions of final project
+> I would like to clarify something about the research paper. :: wanted to clarify something about the research paper :: i want clarify something about research paper
+---
+> Should we use at least {num} academic sources? :: do we need at least {num} academic sources :: we must use minimum {num} academic sources?
+> Is it acceptable to work in pairs? :: is it ok to work in pairs :: we can work in pairs?
+> Does the word limit include the references? :: does the word limit include references :: the references count in the word limit?
+> Should the report follow APA style? :: should the report be in apa style :: report must be APA style?
+---
+> I want to make sure I meet all the requirements. :: wanna make sure i meet all requirements :: i want to be sure i meet all the requirements
+> I could not find this information in the syllabus. :: couldnt find this in the syllabus :: i didnt find this info in syllabus
+> Several classmates have the same question. :: a few classmates have the same question :: other classmates have same question also
+---?
+> I would appreciate any guidance you can provide. :: would appreciate any guidance :: any guidance will help me a lot
+
+=== grade_question | academic | open=prof | close=thanks,reply
+> I would like to ask about my grade on the {course} midterm. :: wanted to ask about my grade on the {course} midterm :: i want ask about my mark in {course} midterm
+> I noticed that my grade for the last assignment seems lower than expected. :: noticed my grade for the last assignment is lower than i expected :: my grade on last assignment looks lower than i expect
+> I think there may be a mistake in the calculation of my final grade. :: i think there might be a mistake in my final grade calculation :: maybe there is mistake in calculation of my final grade
+---
+> I received {num2} points, but the total in the system shows a different number. :: got {num2} points but the system shows a different total :: i got {num2} points but system show other total
+> I believe question {num} was marked incorrectly. :: i think question {num} was marked wrong :: question {num} is marked wrong i think
+> I am not sure which parts of my answer were missing. :: not sure which parts of my answer were missing :: i dont know what was missing in my answer
+---
+> Would it be possible to review it with you during office hours? :: could we go over it in office hours :: can we check it together in office hours?
+> Could you give me some feedback so that I can improve? :: can u give me some feedback so i can improve :: can you give feedback so i improve?
+> I would be grateful if you could take another look. :: would be grateful if u could take another look :: please if you can look again
+---?
+> I understand if the grade is final. :: i get it if the grade is final :: i understand if grade is final
+
+=== office_hours_request | academic | open=prof | close=thanks
+> Would it be possible to meet during your office hours on {day}? :: could we meet in ur office hours {day} :: is possible to meet in office hours on {day}
+> I would like to schedule a short meeting to discuss my thesis topic. :: want to set up a short meeting about my thesis topic :: i want make short meeting for discuss my thesis topic
+> Do you have any time this week to talk about my research proposal? :: do u have time this week to talk about my research proposal :: you have time this week for talk about my research proposal?
+---
+> I am having trouble understanding the statistical methods. :: having trouble understanding the stats methods :: i have problems to understand statistical methods
+> I would like your advice on choosing a topic. :: want ur advice on picking a topic :: i want your advice for choose a topic
+> I have a few questions about the reading list. :: got a few questions about the reading list :: i have some questions about reading list
+---
+> I am available any time after {time}. :: im free anytime after {time} :: i am available after {time} anytime
+> I cannot come on {day2} because I have a lab. :: cant come {day2} bc i have a lab :: i cant on {day2} because lab
+> I can also meet online if that is easier for you. :: can also meet online if thats easier :: online is also ok if easier for you
+---?
+> I only need about {min} minutes of your time. :: only need like {min} mins of ur time :: i need only {min} minutes from your time
+
+=== group_member_issue | academic | open=prof | close=thanks
+> I am writing about a problem in our {course} group project. :: writing about a problem in our {course} group project :: i write about problem in our group project for {course}
+> I would like to raise a concern about our group's progress. :: wanted to raise a concern about our groups progress :: i want to tell a concern about progress of our group
+---
+> One of our group members has not responded to messages for two weeks. :: one group member hasnt answered messages for 2 weeks :: one member of group didnt answer messages since two weeks
+> One member has not completed their part of the work. :: one member didnt do their part :: one person didnt finish their part of work
+> We cannot agree on how to divide the remaining tasks. :: we cant agree how to split the remaining tasks :: we dont agree how to divide rest of tasks
+> One student keeps missing our scheduled meetings. :: one student keeps missing our meetings :: one student always miss our meetings
+---
+> We have tried to solve the problem ourselves. :: we tried to fix it ourselves :: we try to solve problem by ourselves
+> The presentation is due on {date}, so we are worried. :: presentation is due {date} so were worried :: presentation is on {date} so we are worry
+> We do not want this to affect everyone's grade. :: dont want this to affect everyones grade :: we dont want it affect grade of everyone
+---
+> Could you advise us on what to do? :: can u advise us what to do :: what we should do?
+> Would it be possible to discuss this with you after class? :: could we talk about it after class :: can we discuss with you after class?
+> Could we redistribute the work among the remaining members? :: can we split the work among the rest of us :: we can divide work between other members?
+
+=== thesis_feedback | academic | open=prof | close=thanks,reply
+> I have attached the second chapter of my thesis for your review. :: attached chapter 2 of my thesis for review :: i attach second chapter of thesis for review
+> I am sending you the revised version of my literature review. :: sending u the revised lit review :: i send you the new version of literature review
+> I have finished the first draft of my methodology section. :: finished first draft of my methodology section :: i finish first draft of methodology part
+---
+> I have made the changes you suggested last week. :: made the changes u suggested last week :: i did the changes you suggest last week
+> I added a section on the limitations of the study. :: added a section on study limitations :: i add part about limitations of study
+> The draft is about {num2} pages long. :: draft is about {num2} pages :: the draft is around {num2} pages
+> I am not sure whether the analysis is detailed enough. :: not sure if the analysis is detailed enough :: i dont know if analysis is enough detailed
+---
+> Could you send me your comments by {day}? :: could u send comments by {day} :: can you send me comments until {day}
+> I would appreciate your feedback on the structure in particular. :: would appreciate feedback esp on the structure :: i want your feedback specially on structure
+> I would like to submit the final version by {date}. :: want to submit final version by {date} :: i want submit final version until {date}
+---?
+> I know you are busy, so thank you for your time. :: i know ur busy so thx for ur time :: i know you are busy thank you for time
+
+=== course_registration | academic | open=prof,support | close=thanks
+> I would like to register for {course}, but the course is full. :: want to register for {course} but its full :: i want register {course} but course is full
+> I am having trouble enrolling in {course} through the student portal. :: having trouble enrolling in {course} on the student portal :: i have problem to enroll in {course} in student portal
+> Is it still possible to add {course} to my schedule this semester? :: can i still add {course} to my schedule this semester :: is still possible to add {course} for this semester?
+---
+> I need this course to graduate on time. :: need this course to graduate on time :: i need the course for graduate in time
+> The system shows an error when I click the register button. :: system gives an error when i click register :: system show error when i click register button
+> The course is required for my major. :: its required for my major :: course is obligatory for my major
+> I have already completed all the prerequisites. :: already finished all prerequisites :: i completed all prerequisites already
+---
+> Could you add me to the waiting list? :: can u add me to the waiting list :: you can put me on waiting list?
+> Is there a form I need to submit? :: is there a form i need to fill :: i need to submit some form?
+> Could you give me permission to enroll? :: could u give me permission to enroll :: can you give me permission for enroll
+---?
+> My student ID number is {order}. :: student id is {order} :: my student number {order}
+
+=== help_workload | assistance | open=person,team | close=thanks
+> Could you help me with some of my tasks this week? :: can u help me w some of my tasks this week :: can you help me with my tasks this week
+> I am falling behind on the {project} project and could use some help. :: falling behind on {project}, could use some help :: i am late on {project} project need some help
+> I have too much on my plate right now and need some support. :: way too much on my plate rn, need some support :: i have too much work now and i need support
+---
+> I have to prepare three client presentations by {day}. :: got 3 client presentations to prep by {day} :: i must prepare three client presentations until {day}
+> {person} is on leave, and I am covering their work as well. :: {person} is on leave and im covering their stuff too :: {person} on leave so i do their work too
+> The audit has taken up most of my time this week. :: the audit took most of my time this week :: audit take most of my time this week
+---
+> Could you take over the weekly report? :: could u take over the weekly report :: you can do the weekly report?
+> It would help a lot if you could answer the client emails today. :: would help a lot if u could answer client emails today :: if you answer client emails today it help a lot
+> Could you review the slides before I send them? :: can u check the slides before i send them :: can you review slides before i send?
+> Even an hour of your time would make a big difference. :: even an hour of ur time would really help :: even one hour of your time help a lot
+---?
+> I am happy to return the favor next week. :: happy to return the favor next week :: i can help you back next week
+
+=== help_spreadsheet | assistance | open=person | close=thanks
+> Could you help me with a formula in the budget spreadsheet? :: can u help me w a formula in the budget sheet :: can you help me with formula in budget spreadsheet
+> I am struggling to create a pivot table for the sales data. :: struggling to make a pivot table for the sales data :: i struggle to make pivot table for sales data
+> I cannot figure out why my spreadsheet is showing errors. :: cant figure out why my spreadsheet shows errors :: i dont understand why spreadsheet show errors
+---
+> The totals do not match the numbers in the report. :: totals dont match the numbers in the report :: totals are not same like the report
+> I need to combine data from {num} different sheets. :: need to combine data from {num} different sheets :: i need merge data from {num} sheets
+> The chart is not updating when I add new rows. :: chart isnt updating when i add rows :: chart not update when i add new rows
+---
+> I know you are very good with spreadsheets. :: i know ur really good with spreadsheets :: i know you are expert in spreadsheets
+> I have to send it to {person} by the end of the day. :: gotta send it to {person} by end of day :: i must send it to {person} end of the day
+> I have already tried searching online for a solution. :: already tried googling it :: i tried to search online already
+---?
+> Would you have {min} minutes this afternoon? :: do u have {min} mins this afternoon :: you have {min} minutes this afternoon?
+
+=== help_presentation | assistance | open=person | close=thanks
+> Could you help me prepare for my presentation on {day}? :: can u help me prep for my presentation {day} :: can you help me prepare presentation on {day}
+> I would really appreciate your help with the slides for the client pitch. :: would really appreciate ur help w the client pitch slides :: please help me with slides for client pitch
+> I am nervous about presenting to the board next week and would like some advice. :: nervous about presenting to the board next week, want some advice :: i am stressed to present to board next week, i need advice
+---
+> I have a first draft, but the structure feels unclear. :: have a first draft but the structure feels off :: i have first draft but structure not clear ~
+> I am not sure how to present the financial results. :: not sure how to present the financial results :: i dont know how present the financial results
+> The presentation needs to be under {min} minutes. :: it needs to be under {min} mins :: presentation must be less than {min} minutes
+---
+> Could you listen to me rehearse it once? :: could u listen to me practice it once :: can you listen me practice one time?
+> Your feedback on the design would be very helpful. :: ur feedback on the design would really help :: your feedback for design will help a lot
+> Would you be able to look at it before {time} tomorrow? :: could u look at it before {time} tomorrow :: you can check it before {time} tomorrow?
+---?
+> You always give great presentations. :: u always give great presentations :: your presentations are always great
+
+=== help_new_tool | assistance | open=person,team | close=thanks
+> I am having trouble getting used to the new {app} setup. :: having trouble getting used to the new {app} setup :: i have difficulty to get used to new {app}
+> Could you show me how to use {app} for project tracking? :: can u show me how to use {app} for project tracking :: you can show me how use {app} for tracking projects?
+> I am new to {app} and could use some guidance. :: im new to {app} could use some guidance :: i am new in {app} and need some guidance
+---
+> I cannot find where to create a new board. :: cant find where to make a new board :: i dont find where create new board
+> I am not sure how to share files with external clients. :: not sure how to share files with outside clients :: i dont know how share files with external clients
+> My notifications are not working properly. :: my notifications arent working right :: notifications not working good
+> I would like to learn how to set up automatic reminders. :: want to learn how to set up auto reminders :: i want learn to set automatic reminders
+---
+> Do you have a few minutes to walk me through it? :: got a few mins to walk me through it :: you have few minutes to show me?
+> A short guide or video would also be helpful. :: a short guide or video would help too :: also short guide or video is helpful
+> {person} mentioned that you are the expert on this. :: {person} said ur the expert on this :: {person} told me you are expert on this
+---?
+> I want to make sure I am using it correctly. :: wanna make sure im using it right :: i want to use it correctly
+
+=== help_cover_shift | assistance | open=person | close=thanks
+> Could you cover my shift on {day}? :: can u cover my shift {day} :: can you take my shift on {day}
+> Would you be able to swap shifts with me this weekend? :: could u swap shifts w me this weekend :: can we swap shifts this weekend?
+> I need someone to cover the front desk from {time} to {time2} tomorrow. :: need someone to cover front desk {time} to {time2} tomorrow :: i need somebody for front desk from {time} to {time2} tomorrow
+---
+> I have a medical appointment that I cannot move. :: have a doctor appt i cant move :: i have medical appointment i cant change
+> My sister is getting married that day. :: my sister is getting married that day :: that day is my sisters wedding
+> I have an exam that morning. :: i have an exam that morning :: that morning i have exam
+---
+> I can take one of your shifts next week in return. :: can take one of ur shifts next week in return :: i can do one of your shifts next week instead
+> I have already checked with the manager, and it is fine with them. :: already checked with the manager, theyre ok with it :: i asked manager already, is ok for them
+> I will leave detailed notes for you. :: ill leave detailed notes for u :: i leave you detailed notes
+---?
+> Please let me know by tonight if possible. :: lmk by tonight if possible :: tell me tonight if possible
+
+=== help_find_document | assistance | open=person,team | close=thanks
+> Do you know where I can find the signed contract for the {project} project? :: do u know where the signed contract for {project} is :: where i can find signed contract of {project} project?
+> I am looking for last year's training materials. :: looking for last years training materials :: i search the training materials of last year
+> Has anyone seen the latest version of the brand guidelines? :: has anyone seen the latest brand guidelines :: somebody saw last version of brand guidelines?
+---
+> I checked the shared drive, but I could not find it. :: checked the shared drive but couldnt find it :: i looked in shared drive but not found
+> It is not in the {folder} folder where it used to be. :: its not in the {folder} folder anymore :: it is not in {folder} folder like before
+> The link in the old email no longer works. :: the link in the old email doesnt work anymore :: link in old email is not working now
+---
+> I need it for the client meeting on {day}. :: need it for the client meeting {day} :: i need it for client meeting {day}
+> {person} said that you might have a copy. :: {person} said u might have a copy :: {person} told me maybe you have copy
+> A PDF version would be fine. :: a pdf is fine :: pdf version is ok
+---?
+> Thanks for checking. :: thx for checking :: thanks for check
+
+=== help_event_setup | assistance | open=team,person | close=thanks
+> Could anyone help me set up the room for the training session tomorrow? :: can anyone help me set up the room for the training tomorrow :: somebody can help me prepare room for training tomorrow?
+> I need a few volunteers to help with the charity event on {day}. :: need a few volunteers for the charity event {day} :: i need some volunteers to help charity event on {day}
+> Would someone be able to help me organize the welcome lunch for the new interns? :: could someone help me organize the welcome lunch for new interns :: somebody can help organize welcome lunch for new interns?
+---
+> We need to move about {num2} chairs and set up the tables. :: need to move like {num2} chairs and set up tables :: we must move around {num2} chairs and put tables
+> We also need help with registration at the entrance. :: also need help with registration at the entrance :: we need help also for registration at entrance
+> Someone will need to pick up the food at {ltime}. :: someone needs to pick up the food at {ltime} :: somebody must take the food at {ltime}
+---
+> It should only take about an hour. :: should only take like an hour :: it takes only one hour maybe
+> I will provide coffee and snacks for everyone who helps. :: ill bring coffee and snacks for anyone who helps :: i will bring coffee and snacks for helpers
+> Please reply to this message if you are available. :: reply here if ur free :: answer this message if you are available
+---?
+> Any help would be greatly appreciated. :: any help would be awesome :: all help is appreciated

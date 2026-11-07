@@ -1,0 +1,317 @@
+=== clarify_instructions | clarification | open=person | close=thanks
+> I want to make sure I understood your instructions correctly. :: wanna make sure i got ur instructions right :: i want be sure i understand your instructions correct
+> Could you clarify what you meant in your last email? :: can u clarify what u meant in ur last email :: what you mean in your last email?
+> I am a bit confused about the next steps for the {project} project. :: bit confused about next steps for {project} :: i am little confused about next steps of {project}
+---
+> Should I send the report to the client directly or to you first? :: should i send the report to the client directly or u first :: i send report to client directly or to you before?
+> Do you want me to update the existing file or create a new one? :: do u want me to update the existing file or make a new one :: i update the old file or create new one?
+> Should the summary include the figures from last year? :: should the summary have last years figures :: summary must include figures of last year?
+> When you said "next week," did you mean {day} or later? :: when u said next week did u mean {day} or later :: next week means {day} or after?
+---
+> I do not want to make any mistakes. :: dont wanna mess anything up :: i dont want make mistakes
+> I want to start working on it this afternoon. :: want to start on it this afternoon :: i want begin it this afternoon
+> {person} and I understood it differently. :: {person} and i understood it differently :: me and {person} understand it different
+---?
+> A quick reply would be very helpful. :: a quick reply would really help :: fast answer will help a lot
+
+=== clarify_email_meaning | clarification | open=person | close=thanks
+> I received your message about the new process, but I am not sure I understand it. :: got ur msg about the new process but not sure i get it :: i received your message about new process but i dont understand well
+> Your email from {day} mentioned some changes to the schedule. :: ur email from {day} mentioned some schedule changes :: in your email of {day} you said some changes in schedule
+> I read the update you sent this morning, and I have a question. :: read the update u sent this morning, got a question :: i read update you send this morning, i have question
+---
+> Does this apply to all departments or only to ours? :: does it apply to all departments or just ours :: is it for all departments or only us?
+> Does this change take effect immediately? :: does this start right away :: the change is from now?
+> Are we still expected to submit weekly reports? :: do we still need to send weekly reports :: we still must submit weekly reports?
+> Who should we contact if we have problems? :: who do we contact if theres problems :: who we contact if problems?
+---?
+> I want to make sure the team follows the correct procedure. :: want to make sure the team follows the right procedure :: i want team follow the correct procedure
+> Several people on my team have asked me about this. :: a few ppl on my team asked me about it :: some people in my team ask me about this
+
+=== clarify_owner | clarification | open=team,person | close=thanks
+> Who is responsible for updating the client on the project status? :: who's responsible for updating the client on status :: who must update client about project status?
+> I am not sure who is handling the {project} budget now. :: not sure who handles the {project} budget now :: i dont know who manage {project} budget now
+> Could you confirm who will lead the training session on {day}? :: can u confirm whos leading the training {day} :: who lead the training session on {day}?
+---
+> I thought {person} was handling it, but they said it was not their task. :: i thought {person} had it but they said its not theirs :: i think {person} do it but they say is not their task
+> It was not mentioned in the meeting notes. :: wasnt in the meeting notes :: meeting notes didnt mention it
+> There seems to be some confusion about this within the team. :: seems like the team is confused about this :: team is confused about this a bit
+---
+> I want to make sure nothing falls through the cracks. :: wanna make sure nothing gets missed :: i want nothing is forgotten
+> The client is expecting an answer by {day2}. :: client is expecting an answer by {day2} :: client want answer until {day2}
+> I am happy to take it on if no one else is assigned. :: happy to take it if nobody else is assigned :: i can take it if nobody is assigned
+---?
+> Could we clarify this at the next team meeting? :: can we clear this up at next team meeting :: we can clarify this in next team meeting?
+
+=== clarify_numbers | clarification | open=person | close=thanks
+> I noticed a difference between the numbers in the report and those in the dashboard. :: noticed the numbers in the report and dashboard dont match ~ :: numbers in report and dashboard are different
+> The revenue figure in your summary is different from the one in the finance report. :: revenue in ur summary is different from the finance report :: revenue number in your summary not same like finance report ~
+> I am not sure how the {pct} growth rate was calculated. :: not sure how the {pct} growth was calculated :: i dont understand how growth {pct} was calculated
+---
+> Could you explain which data source you used? :: can u explain what data source u used :: which data source you used?
+> Are refunds included in these totals? :: are refunds included in the totals :: refunds are in totals?
+> Did the figures include the {city} office? :: did the numbers include the {city} office :: {city} office is included in figures?
+> Is this based on monthly or quarterly data? :: is this monthly or quarterly data :: this is monthly or quarterly data?
+---
+> I need to present these numbers to the board on {day}. :: gotta present these numbers to the board {day} :: i must present numbers to board on {day}
+> I want to make sure we are using the same figures. :: wanna make sure were using the same numbers :: i want we use same figures
+> {person} asked me to double-check them. :: {person} asked me to double check them :: {person} want me to check them again
+
+=== clarify_meeting_location | clarification | open=person,team | close=thanks
+> Could you confirm where tomorrow's meeting will take place? :: where's tomorrows meeting :: where is meeting tomorrow?
+> I am not sure whether the workshop on {day} is online or in person. :: not sure if the workshop {day} is online or in person :: workshop on {day} is online or in person? ~
+> The invitation for the client meeting does not mention a location. :: the client meeting invite doesnt have a location :: invitation for client meeting has no location
+---
+> Is it still in Room {room}, or has it been moved? :: is it still in room {room} or did it move :: still in room {room} or changed?
+> Should I bring my laptop? :: should i bring my laptop :: i need bring laptop?
+> Will there be a video link for remote participants? :: will there be a video link for remote ppl :: there is video link for people online?
+> Do I need a visitor badge to enter the building? :: do i need a visitor badge to get in :: i need visitor badge to enter building?
+---?
+> I will be coming from another meeting, so I may arrive a few minutes late. :: coming from another meeting so might be a few mins late :: i come from other meeting so maybe few minutes late
+> I want to make sure I am in the right place on time. :: wanna make sure im in the right place on time :: i want to be in right place on time
+
+=== clarify_requirements | clarification | open=person | close=thanks,reply
+> Before I start, I would like to clarify a few requirements for the new feature. :: before i start wanna clarify a few requirements for the new feature :: before start i want clarify some requirements of new feature
+> I have some questions about the specifications you sent on {day}. :: got some questions about the specs u sent {day} :: i have questions about specifications you send {day}
+> I need a few more details before I can give you an estimate. :: need more details before i can give an estimate :: i need more details for give you estimate
+---
+> Should users be able to edit their profiles after registration? :: should users be able to edit profiles after signing up :: users can edit profile after registration?
+> Does the report need to be available in both English and French? :: does the report need to be in english and french :: report must be in english and french both?
+> What is the maximum number of users the system needs to support? :: whats the max number of users the system needs to handle :: how many users maximum system need support?
+> Do you need the data to be exported to Excel? :: do u need the data exported to excel :: you need export data to excel?
+---
+> These answers will affect the timeline and cost. :: the answers affect timeline and cost :: answers change timeline and cost
+> I want to avoid redoing work later. :: wanna avoid redoing work later :: i want avoid to do work again later
+> {person} will need this information to finish the design. :: {person} needs this info to finish the design :: {person} need this information for finish design
+---?
+> Could we schedule a short call to go over these points? :: can we do a quick call to go over this :: we can make short call for these points?
+
+=== clarify_feedback | clarification | open=person,prof | close=thanks
+> Thank you for your comments on my draft. :: thx for the comments on my draft :: thanks for comments on my draft
+> I received your feedback on the {draft}, and I have a few questions. :: got ur feedback on the {draft}, have a few questions :: i received feedback for {draft} and i have some questions
+> I am working on the changes you suggested to the {draft}. :: working on the changes u suggested for the {draft} :: i work on changes you suggest for {draft}
+---
+> Could you explain what you meant by "needs more depth"? :: what did u mean by needs more depth :: what you mean with "needs more depth"?
+> When you suggested shortening the introduction, how much should I cut? :: when u said shorten the intro how much should i cut :: you said make intro shorter, how much i cut?
+> Should I remove the second section completely or only revise it? :: should i remove section 2 completely or just revise it :: i delete second section totally or only change it?
+> Did you want more examples or more data in the analysis section? :: did u want more examples or more data in the analysis :: you want more examples or more data in analysis part?
+---
+> I want to make sure I address your comments properly. :: wanna make sure i address ur comments right :: i want answer your comments correctly
+> I plan to send the revised version by {day}. :: plan to send the revised version by {day} :: i plan send new version until {day}
+> Some of the comments seem to point in different directions. :: some comments seem to say different things :: some comments look like they say opposite things
+
+=== bug_report | technical | open=team,person | close=thanks,none
+> I found a bug in the checkout page. :: found a bug on the checkout page :: there is bug in checkout page
+> Users are reporting that the login page is not loading. :: users say the login page isnt loading :: users report login page not load
+> The search function in the app is returning incorrect results. :: app search is giving wrong results :: search in the app return wrong results
+> The export button in the reporting tool has stopped working. :: export button in the reporting tool stopped working :: export button in report tool not working anymore ~
+---
+> It happens every time someone uses a discount code. :: happens every time someone uses a discount code :: it happen every time when someone use discount code
+> The problem started after the update on {day}. :: problem started after the update {day} :: the problem start after update on {day}
+> It only seems to affect users on mobile devices. :: seems to only affect mobile users :: only mobile users have it i think
+> I was able to reproduce it on both Chrome and Firefox. :: could reproduce it on chrome and firefox :: i reproduce it on chrome and firefox both
+---
+> I have created ticket #{ticket} with the steps to reproduce it. :: made ticket #{ticket} with repro steps :: i created ticket #{ticket} with steps to reproduce
+> I have attached screenshots and the error message. :: attached screenshots and the error msg :: i attach screenshots and error message
+> About {pct} of today's orders seem to be affected. :: about {pct} of todays orders look affected :: around {pct} of orders today are affected
+> Could someone from the development team take a look as soon as possible? :: can someone from dev take a look asap :: somebody from developers can check it asap?
+---?
+> This is affecting customers, so it is quite urgent. :: its affecting customers so pretty urgent :: customers are affected so is urgent
+
+=== server_outage_notice | technical | open=team | close=sorry,none
+> The main website is currently down. :: main website is down rn :: website is down now
+> We are experiencing an outage affecting the customer portal. :: we have an outage on the customer portal :: there is outage in customer portal
+> Some users are unable to access their accounts at the moment. :: some users cant get into their accounts right now :: some users cant access their accounts now
+---
+> The issue started at around {mtime} this morning. :: started around {mtime} this morning :: issue began around {mtime} this morning
+> It appears to be caused by a database failure. :: looks like a database failure :: seems database failure is the cause
+> Our hosting provider is having network problems. :: our hosting provider has network problems :: hosting provider have network issues
+---
+> The engineering team is working to restore the service. :: engineering is working on bringing it back :: engineers work to restore service
+> We expect the service to be back within {num} hours. :: should be back within {num} hours :: service back in {num} hours we think
+> We will post updates in the status channel every {min} minutes. :: well post updates in the status channel every {min} mins :: updates every {min} minutes in status channel
+> Please do not restart any servers until further notice. :: pls dont restart any servers until further notice :: dont restart servers until we tell you
+---?
+> Customer support has been informed. :: support has been told :: customer support knows already
+
+=== it_password_reset | technical | open=support,person | close=thanks
+> I am locked out of my work account. :: im locked out of my work account :: my work account is locked
+> I forgot my password and cannot log in to the system. :: forgot my password cant log in :: i forget password and cant login to system
+> My password expired over the weekend, and I cannot reset it. :: my password expired over the weekend and i cant reset it :: password expired on weekend and reset not work
+---
+> I have tried the reset link three times, but it is not working. :: tried the reset link 3 times, not working :: i try reset link three times but no working
+> I did not receive the verification code on my phone. :: didnt get the verification code on my phone :: verification code not came to my phone
+> The system says my account has been disabled. :: system says my account is disabled :: system say account disabled
+---
+> Could you please reset my password? :: can u reset my password :: please reset password for me
+> I need access urgently to prepare for a client call at {time}. :: need access asap for a client call at {time} :: i need access urgent for client call at {time}
+> My username is the same as my email address. :: my username is my email :: username same like my email
+---?
+> You can reach me on my mobile phone in the meantime. :: u can reach me on my cell meanwhile :: meanwhile call me on mobile
+
+=== deploy_notice | technical | open=team | close=questions,none
+> We will deploy the new version of the app tonight at {etime}. :: deploying the new app version tonight at {etime} :: we deploy new version of app tonight {etime}
+> A system update is scheduled for {day} evening. :: system update is scheduled {day} evening :: there is system update on {day} evening
+> We are planning to release version {num}.{num2} on {date}. :: planning to release version {num}.{num2} on {date} :: we plan release version {num}.{num2} on {date}
+---
+> The update includes several security fixes. :: update has a bunch of security fixes :: update include some security fixes
+> This release adds the new reporting dashboard. :: this release adds the new reporting dashboard :: release add new reporting dashboard
+> We have also improved the loading speed of the main pages. :: also improved loading speed on main pages :: we improve also loading speed of main pages
+---
+> The system will be unavailable for about {min} minutes. :: system will be down for like {min} mins ~ :: system not available around {min} minutes
+> Please save your work and log out before {etime}. :: pls save ur work and log out before {etime} :: save work and logout before {etime}
+> No action is required from users. :: no action needed from users :: users dont need to do anything
+> {person} will be on call in case anything goes wrong. :: {person} is on call in case anything breaks :: {person} on call if problem happen
+---?
+> Release notes will be shared after the deployment. :: release notes will be shared after deploy :: we share release notes after deployment
+
+=== laptop_broken | technical | open=support,person | close=thanks
+> My laptop will not turn on this morning. :: my laptop wont turn on this morning :: laptop not turning on this morning
+> I spilled coffee on my laptop, and the keyboard is no longer working. :: spilled coffee on my laptop and keyboard doesnt work now :: i spill coffee on laptop and keyboard not working
+> My laptop screen has cracked. :: my laptop screen cracked :: screen of my laptop is cracked
+> My laptop keeps shutting down after a few minutes. :: laptop keeps shutting down after a few mins :: laptop always shut down after few minutes
+---
+> I cannot access any of my project files. :: cant access any of my project files :: i cant open my project files
+> I have an important presentation at {time} today. :: got an important presentation at {time} today :: i have important presentation {time} today
+> I have already tried restarting it several times. :: already tried restarting it a bunch of times :: i tried restart it many times already
+---
+> Could I borrow a spare laptop until mine is repaired? :: can i borrow a spare laptop till mine is fixed :: i can borrow spare laptop until mine repaired?
+> Could someone from IT take a look at it today? :: can someone from it look at it today :: somebody from IT can check today?
+> I can bring it to the IT office at any time. :: can bring it to the it office anytime :: i can bring it to IT office whenever
+---?
+> Asset tag number: {ticket}. :: asset tag {ticket} :: tag number {ticket}
+
+=== vpn_issue | technical | open=support,person | close=thanks
+> I cannot connect to the VPN from home. :: cant connect to vpn from home :: vpn not connecting from home
+> The VPN keeps disconnecting every few minutes. :: vpn keeps dropping every few mins :: VPN disconnect every few minutes
+> I am getting an authentication error when I try to connect to the VPN. :: getting an auth error when connecting to vpn :: i get authentication error when i connect vpn
+---
+> This started after I installed the latest update. :: started after i installed the latest update :: it start after i install last update
+> My internet connection is working normally. :: my internet works fine :: internet is working normal
+> Other colleagues on my team have the same problem. :: other ppl on my team have the same problem :: colleagues in my team have same problem
+---
+> I am unable to access the internal tools without it. :: cant access internal tools without it :: without it i cant use internal tools
+> I have a deadline today, so this is urgent. :: deadline today so its urgent :: i have deadline today, it is urgent
+> I have attached a screenshot of the error message. :: attached a screenshot of the error :: i attach screenshot of error
+---?
+> I am available for a remote session at any time today. :: free for a remote session anytime today :: i am available for remote session all day
+
+=== code_review_request | technical | open=person,team | close=thanks
+> Could you review my pull request for the login feature? :: can u review my PR for the login feature :: you can review my pull request for login feature?
+> I have opened a pull request with the fix for ticket #{ticket}. :: opened a PR with the fix for #{ticket} :: i open pull request with fix of ticket #{ticket}
+> My changes to the payment module are ready for review. :: my payment module changes are ready for review :: changes in payment module ready for review
+---
+> It is a small change of about {num2} lines. :: its a small change, like {num2} lines :: small change around {num2} lines
+> I refactored the database queries to improve performance. :: refactored the db queries for better performance :: i refactor database queries for performance
+> All tests are passing. :: all tests pass :: tests are all passing
+> I was not sure about the error handling, so I left a comment there. :: wasnt sure about the error handling so i left a comment :: i was not sure for error handling so i put comment
+---
+> I would like to merge it before {day}. :: wanna merge before {day} :: i want merge it before {day}
+> Please pay special attention to the changes in the API. :: pls look closely at the api changes :: please check carefully the API changes
+> {person} has already approved the frontend part. :: {person} already approved the frontend :: {person} approved frontend part already
+---?
+> No rush, but the release is planned for next week. :: no rush but release is planned next week :: not urgent but release is next week
+
+=== followup_no_reply | followup | open=person | close=thanks,reply
+> I am following up on my email from {day} about the {doc}. :: following up on my email from {day} about the {doc} :: i follow up my email of {day} about {doc}
+> I wanted to check whether you had a chance to read my previous message. :: wanted to check if u had a chance to read my last msg :: did you have chance to read my previous message?
+> I just wanted to follow up on my request from last week. :: just following up on my request from last week :: i follow up my request of last week
+---
+> I have not received a response yet. :: havent heard back yet :: i didnt get response yet
+> I understand you are very busy. :: i know ur very busy :: i understand you are busy a lot
+> I wanted to make sure it did not get lost in your inbox. :: wanted to make sure it didnt get lost in ur inbox :: i want be sure it didnt lost in your inbox
+---
+> Could you let me know if you need anything else from me? :: lmk if u need anything else from me :: you need something else from me?
+> I need an answer by {day2} to stay on schedule. :: need an answer by {day2} to stay on schedule :: i need answer until {day2} for stay on schedule
+> Would it be easier to discuss this over the phone? :: would it be easier to talk on the phone :: maybe easier to discuss by phone?
+---?
+> I have attached the original message for reference. :: attached the original msg for reference :: i attach original message for reference
+
+=== followup_after_meeting | followup | open=person,team | close=thanks,questions
+> Thank you for meeting with me today. :: thx for meeting with me today :: thank you for meet me today
+> Thank you all for attending the planning meeting this morning. :: thanks all for coming to the planning meeting this morning :: thanks everybody for attend planning meeting this morning
+> I wanted to follow up on our discussion from {day}. :: following up on our talk from {day} :: i follow up our discussion of {day}
+---
+> As agreed, I will prepare the budget proposal by {day2}. :: like we agreed ill prepare the budget proposal by {day2} :: as we agree i prepare budget proposal until {day2}
+> {person} will contact the supplier about the new prices. :: {person} will reach out to the supplier about new prices :: {person} contact the supplier for new prices
+> We decided to postpone the launch until next month. :: we decided to push the launch to next month :: we decide postpone launch to next month
+> We agreed to meet again in two weeks to review progress. :: agreed to meet again in 2 weeks to review progress :: we agree meet again after two weeks for check progress
+---
+> I have attached the meeting notes. :: attached the meeting notes :: i attach notes of meeting
+> Please let me know if I missed anything. :: lmk if i missed anything :: tell me if i forgot something
+> I have shared the presentation in the team folder. :: shared the presentation in the team folder :: i share presentation in team folder
+---?
+> It was a very productive meeting. :: was a really productive meeting :: meeting was very productive
+
+=== followup_invoice | followup | open=person,agent | close=thanks,none
+> I am writing to follow up on invoice #{order}, which was due on {date}. :: following up on invoice #{order} that was due {date} :: i write about invoice #{order} due on {date}
+> Our records show that the payment of {amount} is still outstanding. :: our records show the {amount} payment is still outstanding :: we see in our records payment {amount} still not paid ~
+> This is a reminder that invoice #{order} is now {num} days overdue. :: reminder invoice #{order} is {num} days overdue now :: invoice #{order} is late {num} days now
+---
+> Could you please let me know when we can expect the payment? :: can u lmk when we can expect payment :: when we can expect payment please?
+> If the payment has already been made, please send us the confirmation. :: if u already paid pls send the confirmation :: if you paid already send us confirmation please
+> I have attached a copy of the invoice for your convenience. :: attached a copy of the invoice :: i attach copy of invoice for you
+---
+> Please contact me if there is any problem with the invoice. :: contact me if theres any problem with the invoice :: write me if invoice has problem
+> We value our partnership and appreciate your prompt attention to this matter. :: we value working with u and appreciate quick attention on this :: we value our partnership and thank you for fast attention
+---?
+> Our bank details are included on the invoice. :: bank details are on the invoice :: bank details are in invoice
+
+=== followup_job_application | followup | open=person | close=thanks,reply
+> I am writing to follow up on my application for the {role} position. :: following up on my application for the {role} job :: i write to follow my application for {role} position
+> I applied for the {role} role on {date} and wanted to check on the status of my application. :: applied for the {role} role on {date}, wanted to check the status :: i applied to {role} on {date}, what is status of application?
+> I recently interviewed for the {role} position and wanted to follow up. :: interviewed for the {role} job recently, just following up :: i had interview for {role} position recently, i follow up
+---
+> I am still very interested in the opportunity. :: im still really interested :: i am still very interested for the opportunity
+> I believe my experience in {field} would be a good fit for the team. :: i think my experience in {field} fits the team well :: my experience in {field} is good fit for team i think
+> I enjoyed learning more about the company during our conversation. :: enjoyed learning more about the company when we talked :: i enjoy to learn more about company in our conversation
+---
+> Could you let me know if there are any updates on the hiring timeline? :: any updates on the hiring timeline :: there is update for hiring timeline?
+> I would be happy to provide any additional information you may need. :: happy to send any extra info u need :: i can give more information if you need
+> I am available for another interview at your convenience. :: im available for another interview whenever works for u :: i am available for other interview when you want
+---?
+> I look forward to hearing from you soon. :: hope to hear from u soon :: waiting to hear from you soon
+
+=== followup_proposal | followup | open=person | close=thanks,reply
+> I wanted to follow up on the proposal I sent you on {day}. :: wanted to follow up on the proposal i sent {day} :: i want follow up the proposal i send on {day}
+> I am checking in to see whether you had a chance to review our quote. :: checking in to see if u looked at our quote :: did you have chance to review our quote?
+> I hope you have had time to look at the project proposal. :: hope u had time to look at the project proposal :: i hope you had time to see project proposal
+---
+> We are able to start the project as early as {date}. :: we can start as early as {date} :: we can begin project from {date}
+> The prices in the quote are valid until the end of the month. :: prices in the quote are valid till end of the month :: quote prices valid until end of month
+> We have updated the timeline based on your comments. :: we updated the timeline based on ur comments :: we update timeline with your comments
+> We can offer a discount of {pct} if you sign before {day2}. :: we can do {pct} off if u sign before {day2} :: we give {pct} discount if you sign before {day2}
+---
+> Please let me know if you have any questions about the details. :: lmk if u have questions about the details :: tell me if questions about details
+> I would be happy to arrange a call to discuss it further. :: happy to set up a call to discuss more :: i can arrange call to discuss more
+> Could you let me know when you expect to make a decision? :: when do u expect to decide :: when you think you decide?
+
+=== followup_action_items | followup | open=team | close=questions,none
+> Here are the action items from today's meeting. :: action items from todays meeting :: these are action items of meeting today
+> I am following up on the tasks we agreed on during {day}'s meeting. :: following up on tasks we agreed on {day}s meeting :: i follow up tasks we agree on meeting {day}
+> This is a quick reminder of who is responsible for each task. :: quick reminder of whos doing what :: small reminder who is responsible for each task
+---
+> {person} will update the project timeline by {day2}. :: {person} updates project timeline by {day2} :: {person} update timeline until {day2}
+> {person2} will contact the client about the missing documents. :: {person2} contacts the client about missing docs :: {person2} contact client for missing documents
+> I will prepare the budget summary for next week. :: ill do the budget summary for next week :: i prepare budget summary for next week
+> The design team will share the updated mockups. :: design team will share updated mockups :: design team share the new mockups
+---
+> Please update the task tracker when your items are complete. :: pls update the tracker when ur done :: update task tracker when you finish
+> We will review progress at the next meeting. :: well review progress next meeting :: we check progress in next meeting
+> Please let me know if anything is missing from this list. :: lmk if anything is missing from this list :: tell me if something missing in the list
+---?
+> Thank you all for a productive discussion. :: thx all for a productive discussion :: thanks everyone for good discussion
+
+=== interview_thanks | followup | open=person | close=reply,none
+> Thank you for taking the time to interview me for the {role} position. :: thanks for interviewing me for the {role} job :: thank you for take time to interview me for {role} position
+> Thank you for meeting with me yesterday to discuss the {role} role. :: thx for meeting me yesterday about the {role} role :: thanks for meet me yesterday for {role} role
+> I appreciated the opportunity to speak with you and {person} today. :: really appreciated talking w u and {person} today :: i appreciate the chance to talk with you and {person} today
+---
+> I enjoyed learning about the team's plans for the coming year. :: enjoyed hearing about the teams plans for next year :: i enjoy to learn about plans of team for next year
+> Our conversation made me even more excited about the position. :: our talk made me even more excited about the job :: after our conversation i am more excited for the position
+> I was especially interested in the new {field} initiative. :: was esp interested in the new {field} initiative :: i was interested specially in new {field} initiative
+---
+> I am confident that my skills would help the team reach its goals. :: im confident my skills would help the team reach its goals :: i am sure my skills help team reach goals
+> Please let me know if you need any references or additional documents. :: lmk if u need references or other docs :: tell me if you need references or more documents
+> I would be glad to answer any further questions. :: happy to answer any other questions :: i am glad to answer more questions
+---?
+> Thank you again for your time and consideration. :: thanks again for ur time and consideration :: thank you again for time and consideration

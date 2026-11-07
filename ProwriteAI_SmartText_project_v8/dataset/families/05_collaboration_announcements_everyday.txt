@@ -1,0 +1,319 @@
+=== divide_tasks | collaboration | open=team | close=questions,none
+> Let us divide the tasks for the {project} launch. :: lets split the tasks for the {project} launch :: we divide the tasks for {project} launch
+> I suggest we split the remaining work for the client report. :: i suggest we split the rest of the client report :: i propose we divide remaining work of client report
+> We need to decide who will handle each part of the presentation. :: need to decide who does each part of the presentation :: we must decide who do every part of presentation
+---
+> I can take care of the research section. :: i can do the research section :: i take the research part
+> {person} could work on the slides, since they are great at design. :: {person} could do the slides since theyre great at design :: {person} can do slides because they are good in design
+> I think {person2} should handle communication with the client. :: think {person2} should talk to the client :: i think {person2} must handle client communication
+> Could someone volunteer to review the final version? :: can someone volunteer to review the final version :: somebody can review final version?
+---
+> Let us aim to have our parts ready by {day}. :: lets aim to have our parts ready by {day} :: we try to finish our parts until {day}
+> We can combine everything on {day2} morning. :: we can put it all together {day2} morning :: on {day2} morning we combine everything
+> Please add your name next to your task in the shared document. :: pls put ur name next to ur task in the shared doc :: write your name near your task in shared document
+---?
+> Feel free to suggest a different split if this does not work for you. :: feel free to suggest a different split if this doesnt work :: if not good for you suggest other split
+
+=== share_files | collaboration | open=team,person | close=questions,none
+> I have uploaded the final designs to the shared folder. :: uploaded the final designs to the shared folder :: i upload final designs in shared folder
+> I am sharing the notes from the client workshop. :: sharing the notes from the client workshop :: i share notes of client workshop
+> Here is the link to the updated {doc}. :: heres the link to the updated {doc} :: this is link for updated {doc}
+---
+> You should all have edit access now. :: u should all have edit access now :: all of you have edit access now i think
+> The files are in the {folder} folder. :: files are in the {folder} folder :: files are inside {folder} folder
+> I have highlighted the sections that still need work. :: highlighted the parts that still need work :: i highlight sections that need work still
+> Please use the latest version and delete any older copies. :: pls use latest version and delete old copies :: use last version and delete older copies please
+---
+> Please add your comments by {day}. :: pls add ur comments by {day} :: add comments until {day}
+> Let me know if you have trouble opening anything. :: lmk if u have trouble opening anything :: tell me if you cant open something ~
+> {person} will merge everyone's changes on {day2}. :: {person} will merge everyones changes {day2} :: {person} merge changes of everyone on {day2}
+
+=== ask_input_ideas | collaboration | open=team | close=questions,none
+> I would love to hear your ideas for the next team offsite. :: would love to hear ur ideas for the next team offsite :: i want hear your ideas for next team offsite
+> We are looking for suggestions to improve our onboarding process. :: looking for suggestions to improve onboarding :: we look for suggestions for improve onboarding process
+> I would like everyone's input on the new product name. :: want everyones input on the new product name :: i want input of everyone for new product name
+---
+> Please share any ideas, even if they are not fully developed. :: share any ideas even if theyre not fully thought out :: share all ideas even if not complete
+> We will discuss the suggestions at the meeting on {day}. :: well discuss suggestions at the meeting {day} :: we discuss suggestions in meeting on {day}
+> I have created a shared document where you can add your thoughts. :: made a shared doc where u can add ur thoughts :: i create shared document to add your thoughts
+> {person} has already suggested a few great options. :: {person} already suggested some great options :: {person} gave already some good options
+---
+> Please send your ideas by the end of the week. :: pls send ideas by end of week :: send your ideas until end of week
+> Anonymous suggestions are also welcome. :: anonymous suggestions are welcome too :: also anonymous suggestions are ok
+> The best idea will be presented to management. :: best idea gets presented to management :: we present best idea to management
+---?
+> I am looking forward to seeing what you come up with. :: cant wait to see what u come up with ~ :: excited to see your ideas
+
+=== pair_working | collaboration | open=person | close=thanks,none
+> Would you like to work together on the customer survey analysis? :: wanna work together on the customer survey analysis :: you want work together on customer survey analysis?
+> I think it would be helpful if we paired up on the data migration. :: think it would help if we paired up on the data migration :: i think is helpful we pair on data migration
+> Could we work on the training materials together this week? :: can we do the training materials together this week :: we can work together on training materials this week?
+---
+> You know the data much better than I do. :: u know the data way better than me :: you know data better than me
+> It would help us avoid duplicating work. :: would help us avoid doing the same work twice :: it help us to not do same work two times ~
+> We could finish it much faster together. :: we could finish way faster together :: together we finish more fast
+---
+> I am free on {day} afternoon if that works for you. :: im free {day} afternoon if that works :: i am free {day} afternoon if ok for you
+> We could book a meeting room for a couple of hours. :: we could book a meeting room for a couple hours :: we can book meeting room for two hours
+> I can set up a shared document to track our progress. :: i can set up a shared doc to track progress :: i can make shared document for track progress
+---?
+> Let me know what you think. :: lmk what u think :: tell me what you think
+
+=== handover_notes | collaboration | open=person | close=questions,none
+> Before I go on leave, here is a summary of my ongoing tasks. :: before i go on leave heres a summary of my tasks :: before my leave this is summary of my tasks
+> I am handing over the {project} project to you while I am away. :: handing over {project} to u while im away :: i give you the {project} project when i am away
+> Here are my handover notes for the next {num} weeks. :: here are my handover notes for the next {num} weeks :: these are handover notes for next {num} weeks
+---
+> The client is expecting the revised contract by {day}. :: client expects the revised contract by {day} :: client wait the revised contract until {day}
+> The weekly report is sent every {day2} morning. :: weekly report goes out every {day2} morning :: weekly report is sent every {day2} in the morning
+> All the passwords are stored in the team password manager. :: all passwords are in the team password manager :: all passwords are saved in team password manager
+> {person} from finance is waiting for the updated invoice. :: {person} from finance is waiting on the updated invoice :: {person} in finance wait updated invoice
+---
+> The project files are in the {folder} folder. :: project files are in {folder} folder :: files of project are in {folder} folder
+> I have added detailed notes in the tracker. :: added detailed notes in the tracker :: i put detailed notes in tracker
+> You can reach me by phone for anything urgent. :: u can call me for anything urgent :: for urgent things you can call me
+---?
+> Thank you for covering for me. :: thx for covering for me :: thanks for cover me
+
+=== thank_teammate | collaboration | open=person | close=none
+> Thank you so much for your help with the client presentation. :: thanks so much for helping with the client presentation :: thank you a lot for help with client presentation
+> I really appreciate you staying late yesterday to fix the bug. :: really appreciate u staying late yesterday to fix the bug :: i appreciate a lot you stay late yesterday for fix bug
+> Thank you for stepping in when I was out sick last week. :: thx for stepping in when i was sick last week :: thanks for replace me when i was sick last week
+---
+> The client was very impressed with the final result. :: client was super impressed with the result :: client was very impressed from final result
+> We would not have met the deadline without you. :: wouldnt have made the deadline without u :: without you we dont meet the deadline
+> Your suggestions made the report much clearer. :: ur suggestions made the report way clearer :: your suggestions make report much more clear
+---
+> I have mentioned your great work to {person}. :: i told {person} about ur great work :: i said to {person} about your good work
+> Let me know if I can ever return the favor. :: lmk if i can ever return the favor :: tell me if i can help you back sometime
+> Lunch is on me this week. :: lunch is on me this week :: i pay lunch this week
+---?
+> You are a great teammate. :: ur a great teammate :: you are great teammate
+
+=== polite_disagreement | collaboration | open=person,team | close=questions,none
+> I see your point about launching early, but I have some concerns. :: i get ur point about launching early but i have some concerns :: i understand your point for launch early but i have concerns
+> I am not sure I agree with the decision to remove the onboarding step. :: not sure i agree with removing the onboarding step :: i dont agree really with remove onboarding step
+> I understand why we chose the cheaper supplier, but I am worried about quality. :: i get why we went with the cheaper supplier but im worried about quality :: i understand we choose cheaper supplier but i worry for quality
+---
+> Last time, a similar change caused a lot of support requests. :: last time a similar change caused tons of support requests :: last time similar change make many support requests
+> Our users have told us that this step is important to them. :: users told us this step matters to them :: users said this step is important for them
+> I think we need more data before making a final decision. :: i think we need more data before deciding :: i think we need more data before final decision
+---
+> Could we test both options with a small group first? :: could we test both options w a small group first :: we can test both options with small group before?
+> Perhaps we could discuss it with {person} before moving forward. :: maybe we could talk to {person} before moving on :: maybe we discuss with {person} before continue
+> I am happy to prepare a short comparison of the two approaches. :: happy to put together a short comparison of both :: i can prepare small comparison of two approaches
+---?
+> I am open to other ideas, of course. :: open to other ideas of course :: of course i am open to other ideas
+
+=== new_hire_welcome | announcement | open=team | close=none
+> Please join me in welcoming {person} to the team. :: pls join me in welcoming {person} to the team :: please welcome {person} in our team
+> I am happy to announce that {person} has joined us as our new {role}. :: happy to announce {person} joined us as our new {role} :: i am happy to say {person} join us as new {role}
+> We have a new team member starting today. :: we have a new team member starting today :: new team member start today
+---
+> They have {num} years of experience in {field}. :: they have {num} years experience in {field} :: they have {num} years of experiance in {field}
+> They previously worked at a design agency in {city}. :: they used to work at a design agency in {city} :: before they worked in design agency in {city}
+> They will be working closely with the marketing team. :: theyll be working closely w marketing :: they will work close with marketing team
+---
+> Please stop by and say hello when you have a moment. :: stop by and say hi when u get a sec :: come say hello when you have moment
+> {person2} will be their mentor during the first month. :: {person2} will be their mentor the first month :: {person2} is their mentor in first month
+> We will have a welcome coffee in the kitchen at {time}. :: welcome coffee in the kitchen at {time} :: we have welcome coffee in kitchen at {time}
+---?
+> We are very excited to have them on board. :: super excited to have them on board :: we are very excited they are on board
+
+=== office_closure | announcement | open=team | close=questions,none
+> The office will be closed on {day} for the national holiday. :: office is closed {day} for the national holiday :: office closed on {day} because national holiday
+> Please note that the office will close early at {ptime} on {day}. :: office closes early at {ptime} on {day} :: note office close early {ptime} on {day}
+> The building will be closed this weekend for electrical maintenance. :: building is closed this weekend for electrical maintenance :: building closed this weekend for electrical works
+---
+> Everyone is expected to work from home that day. :: everyone works from home that day :: everybody should work from home that day
+> The parking garage will also be unavailable. :: parking garage is also closed ~ :: parking will be not available too
+> Security will be on site if you need to collect anything urgent. :: security will be there if u need to grab anything urgent :: security is on site if you need take something urgent
+---
+> Please make sure to take your laptops home with you. :: make sure u take ur laptops home :: take your laptop home please
+> Please turn off all equipment before you leave. :: pls turn off all equipment before u leave :: switch off all equipments before leaving
+> Normal hours will resume on {day2}. :: normal hours start again {day2} :: normal hours back on {day2}
+---?
+> Enjoy the long weekend. :: enjoy the long weekend :: have good long weekend
+
+=== policy_change | announcement | open=team | close=questions,none
+> Starting next month, we will introduce a new remote work policy. :: starting next month theres a new remote work policy :: from next month we introduce new remote work policy
+> We are updating our travel expense policy, effective {date}. :: updating our travel expense policy from {date} :: travel expense policy is updated, effective on {date}
+> There will be a change to how vacation requests are approved. :: theres gonna be a change in how vacation requests get approved :: there is change how vacation requests are approved
+---
+> Employees will be able to work from home up to {num} days per week. :: employees can wfh up to {num} days a week :: employees can work from home maximum {num} days per week
+> All expenses over {amount} will require approval from a director. :: expenses over {amount} need director approval :: all expenses more than {amount} need approve from director
+> Requests must be submitted at least two weeks in advance. :: requests need to go in at least 2 weeks before :: requests must be sent minimum two weeks before
+> Managers will now approve requests through the HR portal. :: managers approve requests in the hr portal now :: now managers approve requests through HR portal
+---
+> The full policy is available on the intranet. :: full policy is on the intranet :: you find full policy on intranet
+> HR will hold an information session on {day}. :: hr is doing an info session {day} :: HR make information session on {day}
+> Please read the new guidelines carefully. :: pls read the new guidelines carefully :: read carefully new guidelines please
+---?
+> Thank you for your cooperation. :: thx for ur cooperation :: thanks for cooperation
+
+=== office_move | announcement | open=team | close=questions,none
+> Our team will move to the fourth floor next week. :: our team moves to the 4th floor next week :: next week our team move to fourth floor
+> We are moving to our new office on {date}. :: were moving to the new office on {date} :: we move to new office on {date}
+> The finance department will be relocating to Building {room} this month. :: finance is moving to building {room} this month :: finance department relocate to building {room} this month
+---
+> Please pack your personal items by {day}. :: pls pack ur personal stuff by {day} :: pack your personal things until {day}
+> Moving boxes will be delivered to your desks on {day2}. :: moving boxes get delivered to ur desks {day2} :: boxes for moving will come to your desks on {day2}
+> IT will move all computers and phones for you. :: it will move all computers and phones for u :: IT move all computers and phones for you
+> The new seating plan is attached. :: new seating plan is attached :: i attach new seating plan
+---
+> The new space has more meeting rooms and a larger kitchen. :: new space has more meeting rooms and a bigger kitchen :: new place have more meeting rooms and bigger kitchen
+> Your access cards will be updated automatically. :: ur access cards will update automatically :: access cards update automatic
+> Please label your boxes with your name and team. :: pls label ur boxes with name and team :: write name and team on your boxes
+---?
+> Thank you for your patience during the move. :: thx for ur patience during the move :: thanks for patience in the move
+
+=== promotion_announcement | announcement | open=team | close=none
+> I am pleased to announce that {person} has been promoted to {role}. :: pleased to announce {person} got promoted to {role} :: i am happy to announce {person} is promoted to {role}
+> Please join me in congratulating {person} on their new role as {role}. :: pls join me in congratulating {person} on their new {role} role :: congratulate {person} for new role as {role}
+---
+> They have been with the company for {num} years. :: theyve been here {num} years :: they are in the company since {num} years
+> They led the successful launch of the {project} platform. :: they led the successful {project} launch :: they lead the {project} platform launch with success
+> Their hard work has made a real difference to our clients. :: their hard work really made a difference for our clients :: their hard work make real difference for clients
+> They have mentored many new team members over the past year. :: theyve mentored lots of new team members this past year :: they mentor many new team members last year
+---
+> The new role will start on {date}. :: new role starts {date} :: new role start on {date}
+> {person2} will take over their current responsibilities. :: {person2} takes over their current stuff :: {person2} will take their current responsibilities
+> We will celebrate with a small reception on {day}. :: well celebrate with a small reception {day} :: we celebrate with small reception on {day}
+---?
+> This promotion is very well deserved. :: very well deserved :: this promotion is really deserved
+
+=== team_event_invite | announcement | open=team | close=none,questions
+> You are all invited to our end-of-year party on {date}. :: ur all invited to our end of year party on {date} :: all of you are invited to end of year party on {date}
+> We are organizing a team lunch on {day} to celebrate the launch. :: organizing a team lunch {day} to celebrate the launch :: we organize team lunch on {day} for celebrate launch
+> Join us for a team-building afternoon next {day}. :: join us for team building afternoon next {day} :: come to team building afternoon next {day}
+---
+> It will take place at the Italian restaurant near the office. :: its at the italian restaurant near the office :: it is in italian restaurant near office
+> We will meet in the main lobby at {time}. :: meet in the main lobby at {time} :: we meet in main lobby {time}
+> Families are welcome to join. :: families are welcome too :: families can join also
+> The company will cover all costs. :: company pays for everything :: company cover all costs
+---
+> Please let {person} know if you have any dietary restrictions. :: tell {person} if u have dietary restrictions :: inform {person} if you have food restrictions
+> Please confirm your attendance by {day2}. :: pls confirm attendance by {day2} :: confirm if you come until {day2}
+> Comfortable clothing is recommended. :: wear comfy clothes :: comfortable clothes recommended
+---?
+> We hope to see you all there. :: hope to see everyone there :: we hope see you all there
+
+=== farewell_colleague | announcement | open=team | close=none
+> I am sad to announce that {person} will be leaving the company at the end of the month. :: sad to say {person} is leaving at end of the month :: sadly {person} leave the company end of month
+> After {num} wonderful years with us, {person} is moving on to a new opportunity. :: after {num} great years {person} is moving on to a new opportunity :: after {num} years with us {person} go to new opportunity
+> {person}'s last day with us will be {day}. :: {person}s last day is {day} :: last day of {person} is {day}
+---
+> They have been a key part of the customer success team. :: theyve been a key part of customer success :: they was key part of customer success team
+> We will miss their positive energy and dedication. :: well miss their positive energy and dedication :: we miss their positive energy and dedication
+> They helped build many of the processes we use today. :: they helped build lots of the processes we use today :: they help build many processes we use today
+---
+> We will have a farewell lunch on {day2} at {ltime}. :: farewell lunch {day2} at {ltime} :: we have farewell lunch on {day2} {ltime}
+> There is a card at the reception desk if you would like to sign it. :: theres a card at reception if u wanna sign :: card is at reception desk if you want sign
+> {person2} will take over their projects for now. :: {person2} takes over their projects for now :: {person2} take their projects for now
+---?
+> Please join me in wishing them all the best. :: pls join me in wishing them all the best :: lets wish them all the best
+
+=== dinner_plans | everyday | open=friend | close=friendly,none
+> Are you free for dinner on {day}? :: u free for dinner {day} :: you are free for dinner {day}?
+> Would you like to have dinner together this weekend? :: wanna get dinner this weekend :: you want have dinner together this weekend?
+> Do you want to try the new Thai restaurant downtown? :: wanna try the new thai place downtown :: you want try new thai restaurant downtown?
+---
+> I can make a reservation for {etime}. :: i can book for {etime} :: i can reserve for {etime}
+> It has been a long time since we caught up. :: been ages since we caught up :: long time we didnt catch up ~
+> {person} said they might join us too. :: {person} said they might come too :: maybe {person} join us also
+> I heard the food there is amazing. :: heard the food is amazing there :: i hear food there is amazing
+---
+> Let me know what time works best for you. :: lmk what time works for u :: tell me what time is best for you
+> I can pick you up on the way. :: i can pick u up on the way :: i can take you on the way
+> We can split the bill as usual. :: we can split the bill like always :: we split the bill as usual
+
+=== borrow_item | everyday | open=friend,person | close=thanks
+> Could I borrow your ladder this weekend? :: can i borrow ur ladder this weekend :: i can borrow your ladder this weekend?
+> Would you mind lending me your camping tent for a few days? :: mind lending me ur tent for a few days :: you can lend me camping tent few days?
+> Do you still have the drill you mentioned last week? :: do u still have that drill u mentioned last week :: you still have drill you said last week?
+---
+> I need to fix a few things in my apartment. :: need to fix some stuff in my apartment :: i need fix some things in apartment
+> We are going on a trip to the mountains. :: were going on a trip to the mountains :: we go to trip in mountains
+> Mine broke, and I have not bought a new one yet. :: mine broke and i havent bought a new one yet :: mine is broken and i didnt buy new yet
+---
+> I will return it by {day} at the latest. :: ill give it back by {day} latest :: i return it maximum {day}
+> I can pick it up whenever is convenient for you. :: can pick it up whenever works for u :: i take it when is good for you
+> I will take good care of it. :: ill take good care of it :: i take good care of it
+---?
+> No worries if you need it yourself. :: no worries if u need it urself :: no problem if you need it
+
+=== landlord_repair | everyday | open=person | close=thanks
+> The kitchen sink in my apartment is leaking. :: kitchen sink in my apartment is leaking :: sink in kitchen is leaking
+> The heating in my apartment has stopped working. :: heating in my apartment stopped working :: heating not working in my apartment anymore ~
+> The front door lock is broken, and I cannot lock it properly. :: front door lock is broken, cant lock it properly :: lock of front door broken i cant lock it good
+> There is mold on the bathroom ceiling. :: theres mold on the bathroom ceiling :: there is mould on ceiling of bathroom
+---
+> The problem started {num} days ago and is getting worse. :: started {num} days ago and getting worse :: problem start {num} days ago and is more bad now
+> I have attached some photos so you can see the problem. :: attached some pics so u can see :: i attach photos to see the problem
+> I tried to fix it myself, but it did not help. :: tried to fix it myself but didnt help :: i try fix it myself but no help
+---
+> Could you send someone to repair it this week? :: can u send someone to fix it this week :: please send someone for repair this week
+> I am home every day after {time}. :: im home every day after {time} :: i am at home after {time} every day
+> Please let me know when the technician can come. :: lmk when the technician can come :: tell me when technician can come
+---?
+> It is quite urgent because of the cold weather. :: kinda urgent bc of the cold :: its urgent because cold weather
+
+=== neighbor_noise | everyday | open=person | close=thanks,none
+> I wanted to talk to you about the noise late at night. :: wanted to talk to u about the noise late at night :: i want talk with you about noise at night
+> The music from your apartment has been quite loud after midnight recently. :: music from ur apartment has been pretty loud after midnight lately :: your music is very loud after midnight lately
+> I have been having trouble sleeping because of the noise from upstairs. :: been having trouble sleeping bc of the noise upstairs :: i cant sleep good because noise from upstairs ~
+---
+> I have to get up very early for work. :: gotta get up super early for work :: i must wake up very early for work
+> I have a newborn baby who wakes up easily. :: i have a newborn baby who wakes up easily :: my baby is newborn and wake up easy
+> I understand that everyone likes to relax on weekends. :: i get that everyone likes to relax on weekends :: i understand everybody like to relax in weekend
+---
+> Could you please keep the volume down after {etime}? :: could u keep it down after {etime} :: please lower volume after {etime}
+> Would it be possible to use headphones in the evening? :: could u use headphones in the evening :: is possible you use headphones in evening?
+> I would really appreciate your understanding. :: would really appreciate ur understanding :: i appreciate a lot your understanding
+---?
+> I hope this is not a problem. :: hope thats not a problem :: hope is not problem
+
+=== birthday_invite | everyday | open=friend | close=friendly,none
+> I am having a small birthday party on {day}. :: having a small bday party {day} :: i make small birthday party on {day}
+> We are throwing a surprise party for {person} next weekend. :: throwing a surprise party for {person} next weekend :: we do surprise party for {person} next weekend
+> Would you like to come to my birthday dinner on {date}? :: wanna come to my birthday dinner {date} :: you want come to my birthday dinner on {date}?
+---
+> It will be at my place, starting at {etime}. :: its at my place from {etime} :: it is at my home, start {etime}
+> Please do not mention it to {person}. :: pls dont tell {person} :: dont say to {person} please
+> We will have food, music, and games. :: gonna have food music and games :: there is food music and games
+---
+> Please let me know if you can make it. :: lmk if u can make it :: tell me if you can come
+> Feel free to bring a friend. :: feel free to bring a friend :: you can bring friend
+> Please reply by {day2} so I know how much food to order. :: reply by {day2} so i know how much food to get :: answer me until {day2} for know how much food i order
+---?
+> It would mean a lot to have you there. :: would mean a lot if u came :: means a lot if you come
+
+=== cancel_plans_friend | everyday | open=friend | close=sorry,friendly
+> I am so sorry, but I have to cancel our plans for tonight. :: so sorry but gotta cancel tonight :: sorry i must cancel our plans tonight
+> Unfortunately, I will not be able to make it to the movie on {day}. :: unfortunately cant make it to the movie {day} :: unfortunately i wont come to movie {day}
+> I need to cancel our coffee tomorrow morning. :: need to cancel our coffee tmrw morning :: i need cancel the coffee tomorrow morning
+---
+> Something came up at work, and I have to stay late. :: something came up at work, gotta stay late :: something happen at work i must stay late
+> I am not feeling well. :: not feeling well :: i feel not good
+> My parents are visiting unexpectedly. :: my parents are visiting out of nowhere :: my parents visit me unexpected
+---
+> Could we reschedule for next week? :: can we do next week instead :: we can reschedule next week?
+> How about {day2} instead? :: how about {day2} instead :: what about {day2}?
+> I will make it up to you. :: ill make it up to u :: i make it up to you
+---?
+> I was really looking forward to it. :: was really looking forward to it :: i was waiting it a lot
+
+=== ride_request | everyday | open=friend,person | close=thanks
+> Could you give me a ride to the airport on {day}? :: can u give me a ride to the airport {day} :: you can drive me to airport {day}?
+> Would you be able to pick me up from the train station tonight? :: could u pick me up from the train station tonight :: can you take me from train station tonight?
+> Is there any chance I could get a ride to the office tomorrow? :: any chance i could get a ride to the office tmrw :: maybe you can drive me to office tomorrow?
+---
+> My flight leaves at {time}. :: my flight is at {time} :: flight leave at {time}
+> My car is at the mechanic until {day2}. :: my car is at the mechanic till {day2} :: car is in mechanic until {day2}
+> There are no buses running that late. :: no buses that late :: there is no bus so late
+---
+> I am happy to pay for gas. :: happy to pay for gas :: i pay the gas no problem ~
+> I can be ready whenever it suits you. :: can be ready whenever suits u :: i am ready when you want
+> I completely understand if it is too much trouble. :: totally get it if its too much trouble :: i understand if is too much trouble
+---?
+> I will owe you one. :: ill owe u one :: i owe you one

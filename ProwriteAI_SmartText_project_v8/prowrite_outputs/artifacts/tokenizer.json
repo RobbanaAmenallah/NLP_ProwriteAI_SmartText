@@ -1,0 +1,30 @@
+{
+ "type": "regex_word_tokenizer",
+ "pattern": "\n    [ap]\\.m\\.                                  # a.m. / p.m.\n  | (?:Dr|Mr|Mrs|Ms|Prof|St)\\.(?=\\s|$)         # titles ending with a period\n  | \\d+[A-Z]\\b                                 # codes such as room 3B\n  | \\d+(?:[.,:]\\d+)*                           # numbers: 9 | 1,500 | 12:30 | 8.36\n  | [A-Za-z][A-Za-z0-9]*(?=n't\\b)              # 'do' in do|n't\n  | n't\\b                                      # negative clitic\n  | (?<=[A-Za-z])'(?:s|re|ll|ve|d|m)\\b          # clitics: 's 're 'll 've 'd 'm\n  | (?<=s)'(?![A-Za-z])                         # plural possessive: parents'\n  | [A-Za-z][A-Za-z0-9]*(?:-[A-Za-z0-9]+)*     # words, hyphenated words, Q3, b4\n  | \\.\\.\\.                                     # ellipsis\n  | [^\\sA-Za-z0-9]                             # any other single symbol / punctuation\n",
+ "flags": "re.VERBOSE",
+ "normalization": "NFKC + typographic map + control-char removal + whitespace collapse; case preserved",
+ "no_space_before": [
+  "!",
+  "%",
+  "'",
+  "'d",
+  "'ll",
+  "'m",
+  "'re",
+  "'s",
+  "'ve",
+  ")",
+  ",",
+  ".",
+  "...",
+  ":",
+  ";",
+  "?",
+  "n't"
+ ],
+ "no_space_after": [
+  "#",
+  "$",
+  "("
+ ]
+}

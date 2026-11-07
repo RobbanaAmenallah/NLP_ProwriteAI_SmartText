@@ -1,0 +1,151 @@
+# ProwriteAI dataset v2 — sentence frames
+# line:  frame_id | Formal target template || informal template || informal template ...
+# Slots are filled with the SAME values on both sides; informal slot surfaces may be abbreviated.
+# Generic noise (casing, punctuation, apostrophes, chat abbreviations, misspellings, typos) is added later.
+# Formal targets follow one house style: full forms (I am, do not, cannot), "Could you" for requests,
+# correct capitalization and punctuation.
+
+## cat: questions_everyday
+q_where_were | Where were you {tpast}? || where were you {tpast} || were were you {tpast} || where you were {tpast} || where was you {tpast}
+q_where_are | Where are you right now? || where are you right now || where r you rn || were are you right now || where you are right now
+q_where_going | Where are you going {tfut}? || where are you going {tfut} || where you going {tfut} || were are you going {tfut}
+q_did_you | Did you {base} {obj} {tpast}? || did you {base} {obj} {tpast} || did you {past} {obj} {tpast} || you {past} {obj} {tpast}?
+q_have_you | Have you {pp} {obj} yet? || have you {pp} {obj} yet || did you {base} {obj} yet || you {pp} {obj} yet?
+q_are_you_coming | Are you coming to {event} {tfut}? || are you coming to {event} {tfut} || you coming to {event} {tfut} || are you come to {event} {tfut}
+q_what_time | What time does {event} start? || what time does {event} start || what time {event} start || what time is {event} starting
+q_how_was | How was your {thing}? || how was your {thing} || how was ur {thing} || how your {thing} was
+q_what_doing | What are you doing {tfut}? || what are you doing {tfut} || what you doing {tfut} || what are you do {tfut}
+q_can_you_req | Could you {base} {obj} {tfut}? || can you {base} {obj} {tfut} || could you {base} {obj} {tfut} || can you {base} {obj} {tfut} please
+q_can_you_help | Could you help me with {obj}? || can you help me with {obj} || can you help me {obj} || could you help me with {obj}
+q_is_free | Are you free {tfut}? || are you free {tfut} || you free {tfut} || are you free in {tfut}
+q_why_late | Why were you late {tpast}? || why were you late {tpast} || why you were late {tpast} || why was you late {tpast}
+q_who_is | Who is coming to {event}? || who is coming to {event} || who coming to {event} || who are coming to {event}
+q_do_you_know | Do you know where {obj} is? || do you know where {obj} is || do you know were {obj} is || you know where {obj} is
+q_when_back | When will you be back? || when will you be back || when you will be back || when are you back
+q_does_she | Does {name} know about {event}? || does {name} know about {event} || do {name} know about {event} || {name} knows about {event}?
+q_what_eat | What do you want to eat {tfut}? || what do you want to eat {tfut} || what you want to eat {tfut} || what do you want eat {tfut}
+q_can_i_borrow | Could I borrow {obj} for a few days? || can i borrow {obj} for a few days || can i borrow {obj} for few days || could i borrow {obj} for a few day
+q_did_you_get | Did you get my message? || did you get my message || did you got my message || you got my message?
+q_is_it_ok | Is it okay if I {base} {obj} {tfut}? || is it ok if i {base} {obj} {tfut} || is it okay if i {base} {obj} {tfut} || its ok if i {base} {obj} {tfut}
+
+## cat: statements_past
+s_past | {S} {past} {obj} {tpast}. || {S} {past} {obj} {tpast} || {S} {base} {obj} {tpast} || {S} have {past} {obj} {tpast}
+s_already | {S_have} already {pp} {obj}. || {S_have} already {pp} {obj} || {S_have} already {base} {obj} || {S_have} already {past} {obj}
+s_did_not | {S} did not {base} {obj} {tpast}. || {S} did not {base} {obj} {tpast} || {S} did not {past} {obj} {tpast} || {S} not {base} {obj} {tpast}
+s_was_at | {S_was} {place} {tpast}. || {S_was} {place} {tpast} || {S_was} {place} {tpast} lol
+s_forgot | I forgot to {base} {obj}. || i forgot to {base} {obj} || i forget to {base} {obj} || i forgot {base} {obj}
+s_saw | I saw {name} {place} {tpast}. || i saw {name} {place} {tpast} || i see {name} {place} {tpast} || i have saw {name} {place} {tpast}
+s_had_fun | We had a great time at {event} {tpast}. || we had a great time at {event} {tpast} || we have a great time at {event} {tpast} || we had great time at {event} {tpast}
+s_lost | I lost {obj} {tpast}. || i lost {obj} {tpast} || i lose {obj} {tpast} || i have lost {obj} {tpast}
+s_finally | I finally {past} {obj}. || i finally {past} {obj} || i finally {base} {obj} || finally i {past} {obj}
+s_could_not | I could not {base} {obj} because {reason}. || i could not {base} {obj} because {reason} || i couldnt {base} {obj} {reason} || i could not {past} {obj} because {reason}
+s_went | {S} went to {place2} {tpast}. || {S} went to {place2} {tpast} || {S} go to {place2} {tpast} || {S} goes to {place2} {tpast}
+s_was_tired | I was really tired {tpast}, so I went to bed early. || i was really tired {tpast} so i went to bed early || i was really tired {tpast} so i go to bed early || i was realy tired {tpast} so went to bed early
+s_met | I met {name} for coffee {tpast}. || i met {name} for coffee {tpast} || i meet {name} for coffee {tpast} || i met with {name} for coffee {tpast}
+
+## cat: statements_present
+s_is_ing | {S_be} {ing} {obj} right now. || {S_be} {ing} {obj} right now || {S_be} {ing} {obj} rn
+s_need_to | I need to {base} {obj} before {deadline}. || i need to {base} {obj} before {deadline} || i need {base} {obj} before {deadline} || i needs to {base} {obj} before {deadline}
+s_have_to | We have to {base} {obj} {tfut}. || we have to {base} {obj} {tfut} || we gotta {base} {obj} {tfut} || we has to {base} {obj} {tfut}
+s_usually | {S3} usually {s3} {obj} on {day}s. || {S3} usually {s3} {obj} on {day}s || {S3} usually {base} {obj} on {day}s || {S3} usually {s3} {obj} in {day}s
+s_feel | I am {feeling} about {event}. || i am {feeling} about {event} || i {feeling} about {event} || i am {feeling} for {event}
+s_dont_know | I do not know where {obj} is. || i do not know where {obj} is || i dont know were {obj} is || i not know where {obj} is
+s_dont_understand | I do not understand {thing2}. || i do not understand {thing2} || i dont understand {thing2} || i not understand {thing2}
+s_is_broken | {broken} is not working again. || {broken} is not working again || {broken} not working again || {broken} is not work again
+s_love | I really like {food}. || i really like {food} || i realy like {food} || i really likes {food}
+s_busy | I am {state} right now, so I will call you later. || i am {state} right now so i will call you later || i am {state} rn so i will call you later || i am {state} right now i will call you later
+s_cant_find | I cannot find {obj} anywhere. || i cannot find {obj} anywhere || i cant find {obj} anywhere || i can not find {obj} anywhere
+s_there_is | There is a problem with {broken2}. || there is a problem with {broken2} || there is problem with {broken2} || their is a problem with {broken2}
+s_it_is | It is too {weather} to {activity} today. || it is too {weather} to {activity} today || its too {weather} to {activity} today || it is to {weather} to {activity} today
+
+## cat: statements_future
+s_will | {S} will {base} {obj} {tfut}. || {S} will {base} {obj} {tfut} || {S} will {past} {obj} {tfut} || {S} {base} {obj} {tfut}
+s_going_to | I am going to {base} {obj} {tfut}. || i am going to {base} {obj} {tfut} || i am gonna {base} {obj} {tfut} || i going to {base} {obj} {tfut}
+s_plan | We are planning to {activity2} {tfut}. || we are planning to {activity2} {tfut} || we planning to {activity2} {tfut} || we are plan to {activity2} {tfut}
+s_will_be_late | I will be {num} minutes late. || i will be {num} minutes late || i will be {num} mins late || i be {num} minutes late
+s_will_call | I will call you when I get home. || i will call you when i get home || i will call you when i will get home || i call you when i get home
+s_want_to | I want to {base} {obj} {tfut}. || i want to {base} {obj} {tfut} || i wanna {base} {obj} {tfut} || i want {base} {obj} {tfut}
+s_might | I might be late {tfut} because {reason}. || i might be late {tfut} because {reason} || i might be late {tfut} {reason} || i might late {tfut} because {reason}
+s_wont_be | I will not be able to come to {event} {tfut}. || i will not be able to come to {event} {tfut} || i wont be able to come to {event} {tfut} || i will not able to come to {event} {tfut}
+s_see_you | See you at {event} {tfut}. || see you at {event} {tfut} || see you in {event} {tfut} || see you at the {event} {tfut}
+
+## cat: requests
+r_please_send | Please send me {obj} {tfut}. || please send me {obj} {tfut} || send me {obj} {tfut} please || please sent me {obj} {tfut}
+r_could_you_check | Could you check {obj} for me? || can you check {obj} for me || could you check {obj} for me || can you checking {obj} for me
+r_dont_forget | Please do not forget to {base} {obj}. || please do not forget to {base} {obj} || dont forget to {base} {obj} || please dont forget {base} {obj}
+r_let_me_know | Please let me know if you need anything else. || let me know if you need anything else || let me know if you need something else || please let me know if you needs anything else
+r_call_me | Please call me when you are free. || please call me when you are free || call me when you are free || please call me when you will be free
+r_remind | Could you remind me to {base} {obj}? || can you remind me to {base} {obj} || can you remind me {base} {obj} || could you remind me to {base} {obj}
+r_wait | Could you wait for me {place}? || can you wait for me {place} || can you wait me {place} || could you wait for me {place}
+r_send_address | Could you send me the address? || can you send me the address || can you send me the adress || could you send me address
+r_meet_at | Let us meet at {time} {place}. || lets meet at {time} {place} || let us meet at {time} {place} || lets meet on {time} {place}
+r_bring | Could you bring {obj} {tfut}? || can you bring {obj} {tfut} || could you bring {obj} {tfut} || can you brought {obj} {tfut}
+r_tell | Could you tell {name} that I will be late? || can you tell {name} that i will be late || can you tell {name} i will be late || can you say to {name} that i will be late
+
+## cat: apologies_excuses
+a_sorry_late | Sorry I am late, {reason2}. || sorry i am late {reason2} || sorry im late {reason2} || sorry i late {reason2}
+a_sorry_reply | Sorry I did not reply earlier. I was {state}. || sorry i did not reply earlier i was {state} || sorry i didnt reply earlier i was {state} || sorry i not reply earlier i was {state}
+a_sorry_forgot | Sorry, I forgot to {base} {obj}. || sorry i forgot to {base} {obj} || sorry i forget to {base} {obj} || sorry i forgot {base} {obj}
+a_cant_come | I cannot come {tfut} because {reason}. || i cannot come {tfut} because {reason} || i cant come {tfut} {reason} || i can not come {tfut} because {reason}
+a_sick | I am sick, so I cannot go to {event} {tfut}. || i am sick so i cannot go to {event} {tfut} || im sick cant go to {event} {tfut} || i am sick so i can not go to {event} {tfut}
+a_missed_call | Sorry I missed your call. I was {state}. || sorry i missed your call i was {state} || sorry i miss your call i was {state} || sorry i missed ur call i was {state}
+a_my_fault | It was my fault, and I am really sorry. || it was my fault and i am really sorry || it was my fault im really sorry || it is my fault and i am really sorry
+a_wont_happen | It will not happen again. || it will not happen again || it wont happen again || it will not happens again
+a_running_late | I am running late because {reason}. || i am running late because {reason} || im running late {reason} || i running late because {reason}
+a_sorry_mess | Sorry for the confusion about {event}. || sorry for the confusion about {event} || sorry for confusion about {event} || sorry about the confusion for {event}
+
+## cat: invitations_plans
+i_want_come | Do you want to come to {event} with us {tfut}? || do you want to come to {event} with us {tfut} || you want to come to {event} with us {tfut} || do you wanna come to {event} with us {tfut}
+i_lets_go | Let us go to {place2} {tfut}. || lets go to {place2} {tfut} || let us go to {place2} {tfut} || lets go {place2} {tfut}
+i_join | You are welcome to join us for {meal} {tfut}. || you are welcome to join us for {meal} {tfut} || your welcome to join us for {meal} {tfut} || you welcome to join us for {meal} {tfut}
+i_party | {name} is having a party at {time} on {day}. || {name} is having a party at {time} on {day} || {name} having a party at {time} on {day} || {name} is have a party at {time} on {day}
+i_would_love | I would love to come, thank you for inviting me. || i would love to come thank you for inviting me || i would love to come thanks for invite me || id love to come thank you for inviting me
+i_cant_make_it | I cannot make it {tfut}, but maybe next time. || i cannot make it {tfut} but maybe next time || i cant make it {tfut} but maybe next time || i can not make it {tfut} maybe next time
+i_how_about | How about {meal} at {time}? || how about {meal} at {time} || what about {meal} at {time} || how about {meal} on {time}
+i_count_me | Count me in for {event}. || count me in for {event} || count me in {event} || count me for {event}
+i_bring_something | Should I bring anything to {event}? || should i bring anything to {event} || should i bring something to {event} || i should bring anything to {event}
+
+## cat: work_school
+w_report_ready | The report will be ready by {day}. || the report will be ready by {day} || the report will be ready until {day} || report will be ready by {day}
+w_meeting_moved | The meeting has been moved to {time} on {day}. || the meeting has been moved to {time} on {day} || meeting moved to {time} on {day} || the meeting has been move to {time} on {day}
+w_send_by | I will send you {obj} by the end of the day. || i will send you {obj} by the end of the day || i will send you {obj} by end of day || i will sent you {obj} by the end of the day
+w_working_from_home | I am working from home {tfut}. || i am working from home {tfut} || im working from home {tfut} || i working from home {tfut}
+w_deadline | The deadline for {project_thing} is {day}. || the deadline for {project_thing} is {day} || deadline for {project_thing} is {day} || the deadline of {project_thing} is {day}
+w_need_help | I need some help with {project_thing}. || i need some help with {project_thing} || i need help for {project_thing} || i need some helps with {project_thing}
+w_exam | I have an exam {tfut}, so I need to study. || i have an exam {tfut} so i need to study || i have exam {tfut} so i need to study || i have an exam {tfut} i need study
+w_homework | Did you finish the homework for {course}? || did you finish the homework for {course} || did you finished the homework for {course} || you finished homework for {course}?
+w_class_cancelled | The {course} class is canceled {tfut}. || the {course} class is cancelled {tfut} || {course} class is canceled {tfut} || the {course} class is cancel {tfut}
+w_professor | The professor said the assignment is due on {day}. || the professor said the assignment is due on {day} || professor said the assignment is due {day} || the profesor say the assignment is due on {day}
+w_interview | I have a job interview at {time} {tfut}. || i have a job interview at {time} {tfut} || i have job interview at {time} {tfut} || i got a job interview at {time} {tfut}
+w_late_train | My train was delayed, so I will be late for work. || my train was delayed so i will be late for work || my train delayed so i will be late for work || my train was delay so i will be late for work
+w_print | Could you print {num} copies of the agenda? || can you print {num} copies of the agenda || could you print {num} copy of the agenda || can you print {num} copies of agenda
+w_update | Here is a quick update on {project_thing}. || here is a quick update on {project_thing} || quick update on {project_thing} || here is quick update about {project_thing}
+w_approved | The budget for {project_thing} was approved {tpast}. || the budget for {project_thing} was approved {tpast} || budget for {project_thing} got approved {tpast} || the budget for {project_thing} is approved {tpast}
+
+## cat: shopping_travel_home
+t_flight | My flight to {city} leaves at {time}. || my flight to {city} leaves at {time} || my flight to {city} leave at {time} || my flight for {city} leaves at {time}
+t_arrived | We arrived in {city} {tpast}. || we arrived in {city} {tpast} || we arrived to {city} {tpast} || we arrive in {city} {tpast}
+t_hotel | The hotel is near the station. || the hotel is near the station || hotel is near the station || the hotel is near to the station
+t_order | I ordered {item} {tpast}, but it has not arrived yet. || i ordered {item} {tpast} but it has not arrived yet || i ordered {item} {tpast} but it didnt arrive yet || i order {item} {tpast} but it has not arrived yet
+t_price | The {item} costs {amount}. || the {item} costs {amount} || the {item} cost {amount} || {item} costs {amount}
+t_shop | I am going to the supermarket. Do you need anything? || i am going to the supermarket do you need anything || im going to the supermarket you need anything || i go to the supermarket do you need anything
+t_landlord | The {broken3} in my apartment is broken. || the {broken3} in my apartment is broken || {broken3} in my apartment is broken || the {broken3} in my appartment is broke
+t_rent | I paid the rent {tpast}. || i paid the rent {tpast} || i payed the rent {tpast} || i pay the rent {tpast}
+t_weather | It is raining a lot in {city} {tnow}. || it is raining a lot in {city} {tnow} || its raining a lot in {city} {tnow} || it raining a lot in {city} {tnow}
+t_bus | The bus was {num} minutes late {tpast}. || the bus was {num} minutes late {tpast} || the bus was {num} mins late {tpast} || bus was {num} minutes late {tpast}
+t_keys | I left my keys at {place3}. || i left my keys at {place3} || i leave my keys at {place3} || i left my key at {place3}
+t_refund | I would like a refund for the {item}. || i would like a refund for the {item} || i want a refund for the {item} || i would like refund for the {item}
+
+## cat: social_feelings
+f_congrats | Congratulations on your {achievement}! || congratulations on your {achievement} || congrats on your {achievement} || congratulation for your {achievement}
+f_happy_bday | Happy birthday, {name}! I hope you have a great day. || happy birthday {name} i hope you have a great day || happy bday {name} hope you have a great day || happy birthday {name} i hope you have great day
+f_miss_you | I miss you a lot. || i miss you a lot || i miss you alot || i miss u a lot
+f_thanks_help | Thank you for helping me with {obj}. || thank you for helping me with {obj} || thanks for helping me with {obj} || thank you for help me with {obj}
+f_proud | I am really proud of you. || i am really proud of you || im really proud of you || i really proud of you
+f_hope_better | I hope you feel better soon. || i hope you feel better soon || hope you feel better soon || i hope you feeling better soon
+f_no_worries | No worries, it is not a problem. || no worries it is not a problem || no worries its not a problem || no worries it not a problem
+f_glad | I am glad you liked {gift}. || i am glad you liked {gift} || im glad you liked {gift} || i am glad you like {gift}
+f_agree | I agree with you about {topic}. || i agree with you about {topic} || i am agree with you about {topic} || i agree with you on {topic}
+f_excited | I am so excited about {event} {tfut}! || i am so excited about {event} {tfut} || im so excited for {event} {tfut} || i so excited about {event} {tfut}
+f_no_idea | I have no idea what happened {tpast}. || i have no idea what happened {tpast} || i have no idea what happen {tpast} || i dont have idea what happened {tpast}
+f_worried | I am worried about {name}. || i am worried about {name} || im worried about {name} || i am worry about {name}

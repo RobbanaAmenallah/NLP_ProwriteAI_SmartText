@@ -1,0 +1,346 @@
+=== late_reply_apology | apology | open=person | close=thanks,none
+> I apologize for the delayed response. :: sorry for the late reply :: sorry i answer late
+> I am sorry I did not reply to your email sooner. :: sorry i didnt reply to ur email sooner :: sorry for not replying ur email before
+> Please excuse my late reply to your message from {day}. :: sorry for replying late to ur msg from {day} :: excuse me for late answer to your message of {day}
+> I apologize for taking so long to get back to you. :: sorry it took me so long to get back to u :: sorry i took long time to answer you
+---
+> I was busy preparing for the product launch. :: was busy with the product launch prep :: i was busy to prepare the product launch
+> I was traveling for most of the week. :: was traveling most of the week :: i was in travel most of the week
+> Your message ended up in my spam folder. :: ur msg went to my spam folder :: your message was in my spam
+> I was out sick for a few days. :: i was out sick a few days :: i was sick for some days
+---
+> To answer your question, the budget has been approved. :: to answer ur question the budget got approved :: about your question, budget is approved
+> Yes, I can attend the workshop on {date}. :: yes i can come to the workshop {date} :: yes i can attend workshop on {date}
+> I have reviewed the document, and it looks good to me. :: i reviewed the doc, looks good to me :: i checked the document and its good for me
+> I will send you the information you requested by {day}. :: ill send u the info u asked for by {day} :: i will send you the information you ask until {day}
+---?
+> Thank you for understanding. :: thx for understanding :: thanks for understand
+
+=== missed_meeting_apology | apology | open=person | close=none
+> I am sorry for missing our meeting this morning. :: sorry i missed our meeting this morning :: sorry for miss our meeting this morning
+> I apologize for not attending the team meeting yesterday. :: sorry i didnt come to the team meeting yesterday :: sorry i was not at team meeting yesterday
+> Please accept my apologies for missing our call at {time}. :: so sorry i missed our call at {time} :: sorry for missing the call at {time}
+---
+> I had the wrong time in my calendar. :: had the wrong time in my calendar :: my calendar had wrong time
+> I was stuck in another meeting that ran late. :: was stuck in another meeting that ran over :: another meeting take longer and i was stuck
+> I had an urgent family situation to deal with. :: had an urgent family thing :: i had urgent family problem to handle
+> My internet connection went down just before the call. :: my internet went down right before the call :: my internet was cut just before call
+---
+> Could we reschedule for {day}? :: can we reschedule for {day} :: is it possible to reschedule {day}
+> I will catch up on the notes from {person}. :: ill get the notes from {person} :: i will take the notes from {person} to catch up
+> Please let me know a time that works for you. :: lmk a time that works for u :: tell me what time is good for you
+> I will make sure this does not happen again. :: ill make sure it doesnt happen again :: i will be careful this not happen again
+---?
+> I really value our time together. :: i really value our time :: i value our time a lot
+> I apologize again for the inconvenience. :: sorry again for the trouble :: again sorry for inconvenience
+
+=== report_mistake_apology | apology | open=person,team | close=sorry,questions
+> I made a mistake in the {doc} that I sent this morning. :: i made a mistake in the {doc} i sent this morning :: there is a mistake in the {doc} i send this morning
+> I noticed an error in the figures I shared yesterday. :: noticed an error in the numbers i shared yesterday :: i saw a error in the figures i shared yesterday
+> The totals in the {doc} were calculated incorrectly. :: the totals in the {doc} were calculated wrong :: totals in {doc} is calculated wrong
+---
+> I used last month's data instead of the current data. :: i used last months data instead of the current one :: i took the data of last month instead the current
+> Some of the rows were counted twice. :: some rows got counted twice :: some lines was counted two times
+> I forgot to include the sales from the {city} office. :: forgot to include sales from the {city} office :: i forget to put the sales of {city} office
+> A formula in the spreadsheet was pointing to the wrong column. :: a formula in the sheet pointed to wrong column :: one formula in spreadsheet was on wrong column
+---
+> I have attached the corrected version. :: attached the corrected version :: i attach the correct version
+> Please use the updated file and delete the previous one. :: pls use the updated file and delete the old one :: use updated file and delete previous please
+> I have already informed {person} about the correction. :: i already told {person} about the fix :: i informed {person} already about correction
+> The overall conclusions have not changed. :: the overall conclusions didnt change :: conclusions in general are not changed
+---?
+> I will double-check my work more carefully in the future. :: ill double check my work more carefully next time :: i will check my work two times in future
+
+=== wrong_recipient_apology | apology | open=person | close=sorry,none
+> I accidentally sent you an email that was meant for someone else. :: i accidentally sent u an email meant for someone else :: by mistake i send you email that was for another person
+> Please ignore the message I sent you a few minutes ago. :: pls ignore the msg i sent u a few mins ago :: ignore my message from few minutes ago please
+> The file I just shared with you was sent by mistake. :: the file i just shared w u was sent by mistake :: i shared you the file by mistake just now
+---
+> It was intended for {person} in the accounting team. :: it was for {person} in accounting :: it was meant to {person} from accounting team
+> It contains a draft that is not ready to be shared. :: it has a draft thats not ready to share :: it is draft and not ready for share
+> It includes some confidential client information. :: it has some confidential client info :: there is confidential client information in it
+> I selected the wrong name from the contact list. :: picked the wrong name from contacts :: i choose wrong name in the contact list
+---
+> Could you please delete it without opening the attachment? :: could u delete it without opening the attachment :: please delete it and dont open attachment
+> Please delete it from your inbox when you have a moment. :: pls delete it from ur inbox when u get a sec :: delete it from your inbox when you can
+> I would appreciate it if you did not forward it to anyone. :: would appreciate if u didnt forward it to anyone :: please dont forward it to nobody
+---?
+> I will be more careful when sending emails in the future. :: ill be more careful sending emails from now on :: i will pay more attention when i send emails
+
+=== late_delivery_client | apology | open=agent | close=sorry,questions
+> We sincerely apologize for the delay in delivering your order. :: so sorry for the delay with ur order :: we are very sorry your order is late
+> I am sorry that your order #{order} has not arrived yet. :: sorry ur order #{order} hasnt arrived yet :: sorry order {order} is not arrived yet
+> We apologize that your {item} was not delivered on the promised date. :: sorry ur {item} wasnt delivered on the date we promised :: sorry the {item} didnt arrive the day we promise
+---
+> The delay was caused by a problem at our warehouse. :: delay was from a problem at our warehouse :: there was problem in our warehouse so delay
+> Severe weather has affected deliveries in your area. :: bad weather affected deliveries in ur area :: the weather is bad in your area so deliveries are affected
+> The item was temporarily out of stock. :: item was out of stock for a while :: item was temporary out of stock
+> Our shipping partner has experienced unexpected delays. :: our shipping partner had unexpected delays :: shipping company have unexpected delays
+---
+> Your package is now expected to arrive on {day}. :: ur package should arrive {day} now :: now your package will arrive on {day}
+> We have upgraded your shipping to express delivery at no extra cost. :: we upgraded ur shipping to express for free ~ :: we change your shipping to express free of charge ~
+> You will receive a tracking number by email within {num} hours. :: ull get a tracking number by email in {num} hours :: you receive tracking number by mail in {num} hours
+> We have refunded the shipping fee to your original payment method. :: we refunded the shipping fee to ur original payment method :: shipping fee is refunded to your payment method
+---?
+> We appreciate your patience and understanding. :: thx for ur patience and understanding :: thanks for your patience and understand
+
+=== rude_comment_apology | apology | open=person | close=none
+> I want to apologize for my comment during the meeting today. :: wanna say sorry for my comment in the meeting today :: i want apologize for what i said in meeting today
+> I am sorry for the way I spoke to you yesterday. :: sorry for how i talked to u yesterday :: sorry for the way i talk to you yesterday
+> I owe you an apology for my reaction to your proposal. :: i owe u an apology for how i reacted to ur proposal :: i must apologize for my reaction on your proposal
+---
+> It was unprofessional, and you did not deserve that. :: it was unprofessional and u didnt deserve it :: it was not professional and you dont deserve that
+> I was stressed about the deadline, but that is not an excuse. :: was stressed about the deadline but thats no excuse :: i was stress about deadline but its not excuse
+> I should have expressed my concerns more respectfully. :: should have said my concerns more respectfully :: i should say my concerns with more respect
+> My tone was harsh, and I regret it. :: my tone was harsh and i regret it :: i regret my tone, it was harsh
+---
+> I really value your ideas and your work on the team. :: i really value ur ideas and work on the team :: i value a lot your ideas and work in team
+> Your proposal raised some important points. :: ur proposal had some important points :: your proposal has important points
+> I would like to discuss your proposal again with a more open mind. :: id like to discuss ur proposal again with a more open mind :: i want discuss your proposal again more open minded
+---?
+> Could we grab a coffee and talk about it? :: can we grab a coffee and talk about it :: we can take coffee and talk about it?
+> I hope we can move past this. :: hope we can move past this :: i hope we can forget this and move on
+
+=== forgot_task_apology | apology | open=person | close=sorry,none
+> I completely forgot to send the invoice to the client. :: totally forgot to send the invoice to the client :: i forget completely to send invoice to client
+> I am sorry, but I forgot to book the meeting room for {day}. :: sorry i forgot to book the meeting room for {day} :: sorry i forget book meeting room for {day}
+> I realized this morning that I never updated the shared calendar. :: realized this morning i never updated the shared calendar :: this morning i realize i never update the shared calendar
+> I forgot to order the supplies for the training session. :: forgot to order supplies for the training :: i forgot order the supplies for training session
+---
+> I will take care of it right away. :: ill take care of it right now :: i will do it right away
+> I have just completed it. :: just did it :: i done it just now
+> I will have it done before {time} today. :: ill get it done before {time} today :: i will finish it before {time} today
+---
+> It slipped my mind because of the audit last week. :: slipped my mind bc of the audit last week :: i forgot because the audit last week
+> I have now added a reminder to my calendar so this does not happen again. :: added a reminder in my calendar so it doesnt happen again :: i put reminder in calendar now so it not happen again
+> Please let me know if this caused any problems on your side. :: lmk if this caused any problems on ur side :: tell me if this make problem for you
+---?
+> Thank you for reminding me. :: thx for the reminder :: thanks for remind me
+
+=== progress_update | project_update | open=person,team | close=questions,none
+> Here is a quick update on the {project} project. :: quick update on {project} :: small update about {project} project
+> I wanted to give you an update on our progress this week. :: wanted to update u on our progress this week :: i want give you update about our progress this week
+> The {project} project is moving forward as planned. :: {project} is going as planned :: {project} project going according plan
+---
+> We have completed about {pct} of the development work. :: we finished about {pct} of the dev work :: around {pct} of development is done
+> The design phase is finished, and the team has started building the prototype. :: design phase is done, team started building the prototype :: design is finished and team start the prototype
+> We have finished the user interviews and are analyzing the results. :: finished the user interviews and analyzing the results now :: user interviews are done, we analyze results now
+> The new database is set up, and the data migration has started. :: new database is set up and data migration started :: we set up new database and the migration of data is started
+---
+> The next step is to test the main features with a small group of users. :: next step is testing main features with a small group of users :: next we test main features with small users group
+> We are still on track to finish by {date}. :: still on track to finish by {date} :: we are still in time to finish until {date}
+> {person} will share a detailed report on {day}. :: {person} will share a detailed report {day} :: {person} send detailed report on {day}
+> We will need feedback from the marketing team next week. :: well need feedback from marketing next week :: next week we need feedback of marketing team
+---?
+> Overall, things are going well. :: overall things are going good :: in general all is going well
+
+=== blocker_update | project_update | open=person,team | close=questions,none
+> We are currently blocked on the {project} integration. :: we r blocked on the {project} integration :: we are stuck now with {project} integration
+> The team has run into a problem with the payment feature. :: team ran into a problem w the payment feature :: we have problem with payment feature
+> Our progress on the mobile app has slowed down this week. :: mobile app progress slowed down this week :: the mobile app is going slow this week
+---
+> We are still waiting for the API keys from the vendor. :: still waiting on api keys from the vendor :: we wait still the API keys from vendor
+> The test server has been down since {day}. :: test server is down since {day} :: the testing server is down from {day}
+> We do not yet have approval from the security team. :: dont have approval from security team yet :: security team didnt approve yet
+> Two developers have been out sick this week. :: two devs were out sick this week :: two developers are sick this week
+---
+> Could you help us escalate this with the vendor? :: can u help us escalate with the vendor :: can you escalate this to vendor for us?
+> If this is not resolved by {day}, the release may be delayed. :: if its not fixed by {day} release might be delayed :: if not solved until {day} the release can be late
+> In the meantime, we are working on other features. :: meanwhile we work on other features :: for now we are doing other features
+> {person} is looking into a temporary workaround. :: {person} is looking for a temporary workaround :: {person} try to find temporary workaround
+---?
+> I will keep you posted on any changes. :: will keep u posted :: i will update you if something change
+
+=== milestone_done | project_update | open=team,person | close=none,questions
+> I am happy to share that we have completed the first phase of the {project} project. :: happy to share we finished phase one of {project} :: good news we finished first phase of {project} project
+> We have officially launched the new customer portal. :: new customer portal is officially live :: we launch officially the new customer portal
+> The beta version of the app was released to testers this morning. :: beta version of the app went out to testers this morning :: this morning we released beta app for testers
+---
+> The work was finished {num} days ahead of schedule. :: finished {num} days ahead of schedule :: we finish {num} days before the schedule
+> All of the main features passed testing. :: all main features passed testing :: every main features passed the tests
+> The first users have already given positive feedback. :: first users already gave positive feedback :: first users give good feedback already
+> We stayed within the budget for this phase. :: we stayed in budget for this phase :: budget for this phase was respected
+---
+> Thank you all for your hard work over the past few weeks. :: thanks everyone for the hard work these past weeks :: thank you all for working hard last weeks
+> Special thanks to {person} for leading the testing effort. :: special thanks to {person} for leading testing :: big thanks to {person} that lead the testing
+> We will start planning the next phase on {day}. :: we start planning next phase {day} :: on {day} we begin planning of next phase
+---?
+> Let us celebrate with a team lunch on {day2}. :: lets celebrate with team lunch {day2} :: we celebrate with a team lunch on {day2}
+
+=== delay_update | project_update | open=person | close=sorry,questions
+> Unfortunately, the website redesign will be delayed. :: unfortunately website redesign is gonna be late :: the website redesign will have delay unfortunately
+> I need to let you know that the {project} release will not be ready on {day}. :: need to tell u {project} release wont be ready {day} :: i must inform you {project} release is not ready on {day}
+> We will not be able to deliver the final report by {date} as planned. :: we cant deliver final report by {date} like planned :: we will not deliver final report on {date} as we plan
+---
+> The client requested several last-minute changes. :: client asked for a bunch of last minute changes :: the client ask many changes in last minute
+> We found a serious bug during final testing. :: found a serious bug in final testing :: we find a big bug in the final test
+> One of our key suppliers has delayed their shipment. :: one of our main suppliers delayed their shipment :: a key supplier delay the shipment
+> We underestimated the time needed for data cleaning. :: we underestimated the time for data cleaning :: we thought data cleaning needs less time than it did
+---
+> The new expected date is {date2}. :: new expected date is {date2} :: now the date is {date2}
+> We expect to need about {num} more days. :: we need like {num} more days :: we think we need {num} days more
+> We are adding another developer to the team to speed things up. :: we are adding another dev to speed things up :: we add one more developer to go faster
+> I will send you a revised timeline by tomorrow. :: ill send u a revised timeline by tomorrow :: i send you new timeline until tomorrow
+---?
+> I understand this is frustrating, and I appreciate your patience. :: i know its frustrating, appreciate ur patience :: i understand its frustrating and thank you for patience
+
+=== weekly_status | project_update | open=team | close=questions,none
+> Here is our weekly status update. :: weekly status update :: this is the weekly status update
+> Please find below a summary of what we accomplished this week. :: summary of what we did this week :: here what we accomplish this week
+> This is a short summary of the team's progress since {day}. :: short summary of team progress since {day} :: small summary of team progress from {day}
+---
+> We closed {num2} support tickets this week. :: we closed {num2} support tickets this week :: {num2} support tickets closed this week
+> The marketing campaign went live on {day}. :: marketing campaign went live {day} :: the marketing campaign start {day}
+> We onboarded {num} new clients. :: onboarded {num} new clients :: we have {num} new clients onboarded
+> The new hiring process has been approved. :: new hiring process got approved :: hiring process new is approved
+---
+> Next week, we will focus on improving the onboarding emails. :: next week we focus on improving onboarding emails :: next week focus is to improve onboarding emails
+> {person} is on vacation next week, so {person2} will cover for them. :: {person} is on vacation next week so {person2} covers :: {person} on holiday next week, {person2} will replace
+> We still need a decision on the new pricing plan. :: still need a decision on the new pricing :: we need decision for new pricing plan still
+> There are no major risks at the moment. :: no major risks right now :: nothing risky at the moment
+---?
+> Great work, everyone. :: great work everyone :: good job all
+
+=== scope_change | project_update | open=person,team | close=questions,reply
+> The client has asked to add a reporting dashboard to the project. :: client wants to add a reporting dashboard :: the client ask to add reporting dashboard in project
+> We have decided to remove the chat feature from the first release. :: we decided to remove chat feature from first release :: we decide to take out the chat feature from first release
+> The scope of the {project} project has changed after yesterday's meeting. :: {project} scope changed after yesterdays meeting :: after meeting yesterday the scope of {project} changed
+---
+> This will require about {num} additional weeks of work. :: this needs like {num} more weeks of work :: it need around {num} weeks more of work
+> The change will increase the budget by approximately {amount}. :: change will add about {amount} to the budget :: budget will increase around {amount} with the change
+> This will allow us to meet the original launch date. :: this lets us hit the original launch date :: like this we can keep the original launch date
+> The design team will need to update the mockups. :: design team needs to update mockups :: designers must update the mockups
+---
+> I have updated the project plan to reflect these changes. :: i updated the project plan with the changes :: i update project plan with these changes
+> We need your approval before we proceed. :: need ur approval before we go ahead :: we need your approve before continue
+> {person} will update the documentation by {day}. :: {person} will update the docs by {day} :: {person} update documentation until {day}
+---?
+> I am happy to walk you through the details. :: happy to walk u through the details :: i can explain you the details
+
+=== testing_update | project_update | open=team,person | close=questions,none
+> Testing for the new checkout page is now complete. :: testing for the new checkout page is done :: new checkout page testing is finish
+> We have finished the first round of user testing. :: finished first round of user testing :: first round of user test is done
+> The QA team has completed regression testing on version {num}.{num2}. :: qa finished regression testing on version {num}.{num2} :: QA team completed regression test on version {num}.{num2}
+---
+> We found {num} critical bugs and several minor issues. :: found {num} critical bugs and some small issues :: there are {num} critical bugs and many small issues
+> Most of the tests passed without any problems. :: most tests passed with no problems :: almost all tests passed without problem
+> Users found the new navigation confusing. :: users found the new navigation confusing :: users think the new navigation is confusing
+> The page now loads much faster on mobile devices. :: page loads way faster on mobile now :: now the page load much faster in mobile
+---
+> The developers are already working on the fixes. :: devs are already working on fixes :: developers already working on the fixing
+> I have logged all issues in the bug tracker. :: logged all issues in the bug tracker :: i put all issues in the bug tracker
+> We will run another round of tests on {day}. :: well do another round of tests {day} :: another tests round on {day}
+> {person} will share the full test report by the end of the day. :: {person} will share full test report by end of day :: {person} send full test report end of the day
+---?
+> We are still on track for the release. :: still on track for the release :: we are still good for release
+
+=== extension_request | deadline | open=person,prof | close=thanks
+> Would it be possible to extend the deadline for the {doc} to {day}? :: can we extend the deadline for the {doc} to {day} :: is possible to extend deadline of {doc} until {day}
+> I would like to ask for a short extension on the project report. :: wanted to ask for a short extension on the project report :: can i have small extension for project report
+> Could I have {num} more days to complete the analysis? :: could i get {num} more days to finish the analysis :: i need {num} days more for finish analysis
+---
+> I am still waiting for some of the data from the finance team. :: still waiting on some data from finance :: finance team didnt send me all the data yet ~
+> I have been covering for {person} while they are on leave. :: been covering for {person} while theyre on leave :: i am doing work of {person} because they are on leave
+> The scope of the analysis turned out to be larger than expected. :: the analysis turned out bigger than expected :: the analysis is bigger than we expect
+> I was sick for most of last week. :: was sick most of last week :: i was ill most of the last week
+---
+> I want to make sure the work is accurate and complete. :: wanna make sure its accurate and complete :: i want the work to be correct and complete
+> Most of the work is already done. :: most of it is done already :: the most part of work is done
+> I can send you a partial version by {day2} if that helps. :: can send a partial version by {day2} if it helps :: i can send you part of it until {day2} if that help
+---?
+> Please let me know if this is possible. :: lmk if thats possible :: tell me if is possible
+
+=== deadline_reminder | deadline | open=team,person | close=questions,thanks
+> This is a friendly reminder that the {doc} is due on {day}. :: friendly reminder the {doc} is due {day} :: just remind you {doc} is due on {day}
+> Just a reminder that timesheets must be submitted by {time} today. :: reminder timesheets need to be in by {time} today :: dont forget timesheets before {time} today ~
+> Please remember that the deadline for budget requests is {date}. :: remember deadline for budget requests is {date} :: remember the deadline of budget requests is {date}
+---
+> Late submissions may not be accepted. :: late ones might not be accepted :: if late maybe not accepted
+> Please upload your files to the shared folder. :: pls upload ur files to the shared folder :: upload your files in the shared folder
+> {person} will review all submissions on {day2}. :: {person} will review everything {day2} :: {person} check all submissions on {day2}
+> Please contact me if you are having any difficulties. :: contact me if ur having any trouble :: write me if you have difficulties
+---
+> So far, only {num} people have submitted their work. :: so far only {num} ppl submitted :: until now only {num} persons submit their work
+> Most of you have already sent your updates. :: most of u already sent ur updates :: majority of you sent updates already
+> This deadline is firm because of the audit. :: this deadline is firm bc of the audit :: we cant move the deadline because of audit ~
+---?
+> Thank you to everyone who has already submitted. :: thx to everyone who already submitted :: thanks all who submitted already
+
+=== deadline_moved | deadline | open=team | close=questions,none
+> The deadline for the project proposal has been moved to {date}. :: deadline for project proposal moved to {date} :: proposal deadline is changed to {date}
+> We have decided to push the launch date back by {num} weeks. :: we decided to push launch back {num} weeks :: we decide to delay launch date {num} weeks
+> The final review meeting has been postponed until {day}. :: final review meeting got pushed to {day} :: final review meeting is postponed to {day}
+---
+> The client needs more time to review the designs. :: client needs more time to review designs :: the client need more time for review the designs
+> Several team members are attending a training course next week. :: a few ppl from the team are at a training next week :: many team members are in training course next week
+> This change gives us time to complete the security review. :: this gives us time for the security review :: with this change we have time to finish security review
+> The new regulations require additional documentation. :: new regulations need extra documentation :: the new rules ask more documents
+---
+> Please update your plans accordingly. :: pls update ur plans :: change your plans according
+> All other dates in the schedule remain the same. :: all other dates stay the same :: other dates in schedule dont change ~
+> I will share the updated timeline this afternoon. :: ill share updated timeline this afternoon :: i share the new timeline this afternoon
+---?
+> Thank you for your flexibility. :: thx for being flexible :: thanks for your flexibility
+
+=== deadline_confirm | deadline | open=person | close=thanks,none
+> I am writing to confirm that the {doc} is due on {date}. :: just confirming {doc} is due {date} :: i want confirm {doc} deadline is {date}
+> Can you confirm whether the deadline is {day} at {time}? :: can u confirm if deadline is {day} at {time} :: deadline is {day} {time} right?
+> I would like to check that we still need to submit the final design by {day}. :: just checking we still need to submit final design by {day} :: we still need send final design until {day}?
+---
+> I want to make sure I plan my week correctly. :: wanna make sure i plan my week right :: i want plan my week correct
+> I received two different dates from the team. :: got two different dates from the team :: team gave me two different dates
+> The calendar invitation shows a different date. :: calendar invite shows a different date :: the invitation in calendar has other date
+---
+> I am on track to finish it on time. :: im on track to finish on time :: i will finish in time
+> I will send it as soon as it is ready. :: ill send it as soon as its ready :: i send it when ready
+> Please let me know if anything has changed. :: lmk if anything changed :: tell me if something changed
+> I may need a day or two more if the client sends new requirements. :: might need a day or two more if client sends new requirements :: maybe i need one or two days more if client send new requirements
+---?
+> I appreciate the clarification. :: appreciate the clarification :: thanks for clarify
+
+=== deadline_risk | deadline | open=person | close=questions,none
+> I am concerned that we may miss the {date} deadline. :: worried we might miss the {date} deadline :: i am afraid we miss deadline of {date}
+> There is a risk that the {project} report will not be ready on time. :: theres a risk {project} report wont be ready on time :: maybe the {project} report is not ready in time
+> I wanted to flag a possible delay with the client presentation. :: wanted to flag a possible delay with client presentation :: i want to tell possible delay for client presentation
+---
+> We are still missing input from two departments. :: still missing input from two departments :: two departments didnt give input yet ~
+> The new requirements added a lot of extra work. :: new requirements added a ton of extra work :: new requirements add many extra work
+> {person} has been reassigned to another project. :: {person} got moved to another project :: they moved {person} to other project
+> The approval process is taking longer than expected. :: approval process is taking longer than expected :: approval is taking more time than we expect
+---
+> Could we reduce the scope of the first version? :: could we cut the scope of the first version :: can we make first version smaller
+> I suggest that we ask the client for {num} more days. :: i suggest asking the client for {num} more days :: i propose ask client for {num} days more
+> We could meet the deadline if we get help from another team. :: we could make the deadline if we get help from another team :: if another team help us we can meet the deadline
+> I would like to discuss our options at tomorrow's meeting. :: wanna discuss options at tomorrows meeting :: i want discuss options in meeting tomorrow
+---?
+> I wanted to raise this early so we have time to adjust. :: wanted to raise it early so we have time to adjust :: i tell you early so we can adjust
+
+=== deadline_question | deadline | open=person,prof,team | close=thanks
+> When is the deadline for the {draft}? :: when is the {draft} due :: what is deadline for the {draft}?
+> Could you tell me when the final version of the {doc} is due? :: when is the final {doc} due :: can you tell me deadline of final {doc}?
+> I am not sure when we are supposed to submit the project plan. :: not sure when we need to submit the project plan :: i dont know when we must submit project plan
+---
+> I could not find the date in the project brief. :: couldnt find the date in the project brief :: i didnt find date in project brief
+> I want to make sure I leave enough time for review. :: wanna leave enough time for review :: i want to have enough time for review
+> I heard different dates from different people. :: heard different dates from different ppl :: people told me different dates
+---?
+> Is it at the end of this week or next week? :: is it end of this week or next week :: this week end or next week?
+> Is the deadline flexible? :: is the deadline flexible :: deadline is flexible?
+---?
+> I would also like to know if we should send it to you or to {person}. :: also should we send it to u or {person} :: also we send it to you or to {person}?
+
+=== tight_deadline_pushback | deadline | open=person | close=reply,none
+> I am worried that the {day} deadline is not realistic. :: worried the {day} deadline isnt realistic :: i think deadline on {day} is not realistic
+> Finishing the whole report by tomorrow will be very difficult. :: finishing the whole report by tomorrow is gonna be really hard :: finish all report until tomorrow is very hard
+> I do not think we can complete all {num} tasks this week. :: dont think we can do all {num} tasks this week :: i dont think we finish all {num} tasks this week
+---
+> The team is already working at full capacity. :: team is already at full capacity :: team already work at full capacity
+> Several of these tasks depend on information we have not received. :: a few tasks depend on info we havent got :: some tasks need information we didnt receive
+> Rushing the work could affect the quality. :: rushing could hurt the quality :: if we rush, quality can be bad
+---
+> Could we prioritize the most important items first? :: can we prioritize the most important items first :: we can do important things first?
+> Would it be possible to move the deadline to {day2}? :: could we move the deadline to {day2} :: possible to move deadline to {day2}?
+> I can deliver a first version by {day} and the final version next week. :: i can deliver first version by {day} and final next week :: i give first version on {day} and final version next week
+> Perhaps {person} could help with part of the workload. :: maybe {person} could help with some of the work :: maybe {person} can help with part of work
+---?
+> I want to deliver high-quality work, so I wanted to raise this now. :: want to deliver good quality so raising it now :: i want good quality work so i tell you now

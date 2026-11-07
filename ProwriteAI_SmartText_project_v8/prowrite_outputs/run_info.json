@@ -1,0 +1,67 @@
+{
+ "finished_at": "2026-11-07 17:11:45",
+ "device": "cpu",
+ "torch": "2.15.0+cpu",
+ "quick_run": false,
+ "config": {
+  "embedding_dim": 128,
+  "hidden_dim": 256,
+  "num_layers": 1,
+  "dropout": 0.2,
+  "batch_size": 64,
+  "learning_rate": 0.001,
+  "weight_decay": 0.0001,
+  "grad_clip": 1.0,
+  "teacher_forcing_ratio": 0.8,
+  "max_epochs": 30,
+  "early_stopping_patience": 5,
+  "lr_scheduler_factor": 0.5,
+  "lr_scheduler_patience": 2,
+  "min_token_freq": 2,
+  "max_source_length": 48,
+  "max_target_length": 48,
+  "max_train_minutes_per_model": 35,
+  "coverage_lambda": 1.0,
+  "oov_copy_augmentation": 0.15,
+  "block_repeated_tokens": true,
+  "beam_widths": [
+   3,
+   5
+  ],
+  "length_penalty_alpha": 0.7
+ },
+ "train_summary": [
+  {
+   "model": "A_LSTM",
+   "epochs_trained": 9,
+   "best_epoch": 4,
+   "best_val_loss": 3.854002624203654,
+   "stop_reason": "early_stopping",
+   "train_minutes": 12.4947461326917
+  },
+  {
+   "model": "B_BiLSTM",
+   "epochs_trained": 9,
+   "best_epoch": 4,
+   "best_val_loss": 3.7239418251133607,
+   "stop_reason": "early_stopping",
+   "train_minutes": 14.086907883485159
+  },
+  {
+   "model": "C_Attention",
+   "epochs_trained": 8,
+   "best_epoch": 3,
+   "best_val_loss": 2.016426018362044,
+   "stop_reason": "early_stopping",
+   "train_minutes": 21.03249659935633
+  },
+  {
+   "model": "D_Pointer",
+   "epochs_trained": 10,
+   "best_epoch": 5,
+   "best_val_loss": 1.2452477393874302,
+   "stop_reason": "early_stopping",
+   "train_minutes": 30.068031950791678
+  }
+ ]
+}

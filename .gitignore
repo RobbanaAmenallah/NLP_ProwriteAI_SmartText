@@ -1,0 +1,48 @@
+# =============================================================================
+# Git Ignore Configuration for ProwriteAI NLP Project
+# =============================================================================
+
+# --- Large Raw Datasets (Exceed GitHub 100 MB Limit) ---
+# The raw Enron corpus is 1.36 GB uncompressed (358 MB compressed).
+# Processed subsets (enron_clean.csv.gz and enron_sample_5000.csv) are tracked.
+**/emails.csv/
+**/emails.csv
+**/emails.csv.zip
+*.zip
+*.tar.gz
+
+# --- Historical Checkpoints & Backup Archive (2.3 GB) ---
+# Contains older training runs (v1, v2, checkpointsv3, etc.).
+# The 4 production checkpoints (A_LSTM, B_BiLSTM, C_Attention, D_Pointer)
+# in prowrite_outputs/checkpoints/ (~7-14 MB each) are tracked.
+**/Les anciens essai/
+**/Les anciens essai/**
+
+# --- Python & Bytecode ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# --- Jupyter Notebooks Checkpoints ---
+.ipynb_checkpoints/
+
+# --- Virtual Environments ---
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# --- OS & Editor Metadata ---
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*.swo
+.idea/
+.vscode/
+
+# --- Temporary Logs & Artifacts ---
+*.log
