@@ -23,11 +23,11 @@ The application automatically loads `D_Pointer` (the best model based on validat
 - Academic multi-model comparison view (evaluating across `A_LSTM`, `B_BiLSTM`, `C_Attention`, and `D_Pointer` simultaneously)
 - Toggle between greedy decoding and beam search ($k=3, 5$)
 
-### 2. Run / Inspect the Training Notebook
+### 2. Run / Inspect the Training Notebooks
 ```bash
-jupyter notebook ProwriteAI_SmartText_4Models_Training.ipynb
+jupyter notebook ProwriteAI_SmartText_4Models_Final.ipynb
 ```
-The notebook is **already fully executed** with all plots, tables, and metrics saved in `prowrite_outputs/`.
+The notebook is **already fully executed** with all plots, tables, and metrics saved in `prowrite_outputs/`. An earlier iteration is also available in `ProwriteAI_SmartText_4Models_TrainingV1.ipynb`.
 
 ---
 
@@ -37,7 +37,8 @@ The notebook is **already fully executed** with all plots, tables, and metrics s
 |---|---|
 | `app.py` | Full-featured Streamlit web application. |
 | `calibrate_confidence.py` | Calibration tool computing log-probability thresholds on validation data. |
-| `ProwriteAI_SmartText_4Models_Training.ipynb` | End-to-end executed Jupyter notebook covering preprocessing, vocabulary, models, training, and evaluation. |
+| `ProwriteAI_SmartText_4Models_Final.ipynb` | End-to-end master executed Jupyter notebook covering preprocessing, vocabulary, models, training, and evaluation. |
+| `ProwriteAI_SmartText_4Models_TrainingV1.ipynb` | Initial training notebook iteration (V1). |
 | `data/` | **Benchmark Dataset v3** (36,000 pairs: 30k train / 3k val / 3k test) with zero test frame leakage. |
 | `data_v1/`, `data_v2/` | Intermediate datasets (12,000 and 30,000 pairs) used during development iterations. |
 | `dataset/` | Raw corpora suite: **CoEdIT** (70,000+ real human editing pairs), **Enron corporate email clean samples**, and generator scripts. |

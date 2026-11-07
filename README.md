@@ -231,7 +231,8 @@ RobbanaAmenallah_NLP_Project/
 └── ProwriteAI_SmartText_project_v8/
     ├── app.py                                # Interactive Streamlit demo application
     ├── calibrate_confidence.py               # Confidence threshold calibration script
-    ├── ProwriteAI_SmartText_4Models_Training.ipynb  # Master Jupyter notebook (end-to-end execution)
+    ├── ProwriteAI_SmartText_4Models_Final.ipynb  # Master Jupyter notebook (final executed run)
+    ├── ProwriteAI_SmartText_4Models_TrainingV1.ipynb # Initial training notebook iteration (V1)
     ├── requirements.txt                      # Subdirectory dependencies
     ├── data/                                 # Final benchmark dataset v3 (36,000 pairs)
     │   ├── train.csv                         # 30,000 training pairs
@@ -302,7 +303,7 @@ Open [http://localhost:8501](http://localhost:8501) in your browser.
 ### 5. Re-run or Inspect Training
 You can inspect the pre-executed notebook or retrain the models from scratch:
 ```bash
-jupyter notebook ProwriteAI_SmartText_project_v8/ProwriteAI_SmartText_4Models_Training.ipynb
+jupyter notebook ProwriteAI_SmartText_project_v8/ProwriteAI_SmartText_4Models_Final.ipynb
 ```
 *(Training all 4 models takes ~85 minutes on a standard 2-core CPU, or ~15 minutes on a modern GPU).*
 
