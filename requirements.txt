@@ -5,7 +5,9 @@
 # Deep Learning Framework (CPU build sufficient; install cuda build if GPU available)
 torch>=2.1.0
 
-# Interactive Web Application
+# Web Applications (Flask ultra-fast REST & Streamlit academic demo)
+flask>=3.0.0
+gunicorn>=21.0.0
 streamlit>=1.35.0
 
 # Data Science & NLP Evaluation Metrics (BLEU, chrF, ROUGE)

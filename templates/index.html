@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ProwriteAI — Smart Text Improvement (Seq2Seq NLP)</title>
+  <!-- Tailwind CSS via CDN for ultra-fast styling (< 50ms) -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['"Plus Jakarta Sans"', 'sans-serif'],
+            mono: ['"JetBrains Mono"', 'monospace'],
+          },
+          colors: {
+            brand: {
+              50: '#f5f3ff',
+              100: '#ede9fe',
+              500: '#8b5cf6',
+              600: '#7c3aed',
+              700: '#6d28d9',
+              800: '#5b21b6',
+              900: '#4c1d95',
+            }
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    body {
+      background: radial-gradient(circle at 15% 10%, #2e1065 0%, #0f0728 50%, #080318 100%);
+      min-height: 100vh;
+    }
+    .glass-card {
+      background: rgba(255, 255, 255, 0.04);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+    }
+    .glass-card-hover:hover {
+      border-color: rgba(167, 139, 250, 0.3);
+      box-shadow: 0 10px 30px -10px rgba(124, 58, 237, 0.3);
+    }
+    .glow-btn {
+      box-shadow: 0 0 25px -5px rgba(139, 92, 246, 0.6);
+      transition: all 0.2s ease-in-out;
+    }
+    .glow-btn:hover {
+      box-shadow: 0 0 35px 0px rgba(139, 92, 246, 0.9);
+      transform: translateY(-1px);
+    }
+  </style>
+</head>
+<body class="text-slate-100 font-sans antialiased selection:bg-brand-500 selection:text-white">
+
+  <!-- Header Navigation -->
+  <header class="border-b border-white/10 glass-card sticky top-0 z-50">
+    <div class="max-w-6xl mx-auto px-4 py-3.5 flex items-center justify-between">
+      <div class="flex items-center space-x-3">
+        <div class="w-10 h-10 rounded-xl bg-gradient-to-tr from-brand-600 to-pink-500 flex items-center justify-center text-xl shadow-lg">
+          ✨
+        </div>
+        <div>
+          <h1 class="text-lg font-bold tracking-tight bg-gradient-to-r from-purple-200 via-white to-pink-200 bg-clip-text text-transparent">
+            ProwriteAI
+          </h1>
+          <p class="text-xs text-purple-300/70">Smart Text Improvement · PyTorch Seq2Seq from Scratch</p>
+        </div>
+      </div>
+      <div class="flex items-center space-x-3">
+        <span class="hidden sm:inline-flex items-center px-2.5 py-1 rounded-full text-xs font-medium bg-purple-900/60 text-purple-200 border border-purple-500/30">
+          🎓 Paris Dauphine-PSL (M2 NLP)
+        </span>
+        <a href="https://github.com/RobbanaAmenallah/NLP_ProwriteAI_SmartText" target="_blank" class="p-2 rounded-lg bg-white/5 hover:bg-white/10 border border-white/10 text-xs font-medium text-slate-200 flex items-center space-x-1.5 transition">
+          <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+          <span>GitHub</span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Container -->
+  <main class="max-w-5xl mx-auto px-4 py-8">
+    
+    <!-- Hero Tagline -->
+    <div class="text-center mb-8">
+      <div class="inline-flex items-center space-x-2 px-3 py-1 rounded-full text-xs font-semibold bg-emerald-500/10 text-emerald-400 border border-emerald-500/20 mb-3">
+        <span class="w-2 h-2 rounded-full bg-emerald-400 animate-ping"></span>
+        <span>Model D_Pointer Active · 66.3 BLEU · 85.3% OOV Copy</span>
+      </div>
+      <h2 class="text-3xl sm:text-4xl font-extrabold tracking-tight text-white">
+        Transform Casual Messages into <br><span class="bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">Clear & Professional English</span>
+      </h2>
+      <p class="mt-2 text-sm text-slate-300/80 max-w-2xl mx-auto">
+        Trained strictly from scratch on over 600,000 real-world corporate emails and text editing benchmarks.
+      </p>
+    </div>
+
+    <!-- Quick Example Pills -->
+    <div class="mb-6">
+      <div class="flex items-center justify-between mb-2">
+        <span class="text-xs font-semibold text-purple-300 uppercase tracking-wider">💡 Try with an example:</span>
+      </div>
+      <div class="flex flex-wrap gap-2" id="example-pills">
+        <!-- Injected via JavaScript or server template -->
+        {% for ex in examples[:5] %}
+        <button onclick="setExample('{{ ex }}')" class="text-xs px-3 py-1.5 rounded-lg bg-white/5 hover:bg-brand-600/30 border border-white/10 hover:border-brand-500/40 text-slate-300 hover:text-white transition text-left">
+          "{{ ex }}"
+        </button>
+        {% endfor %}
+      </div>
+    </div>
+
+    <!-- Main Workspace Grid -->
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+
+      <!-- Input Column -->
+      <div class="glass-card rounded-2xl p-5 flex flex-col justify-between">
+        <div>
+          <div class="flex items-center justify-between mb-2.5">
+            <label for="inputText" class="text-xs font-bold text-slate-300 uppercase tracking-wider flex items-center space-x-1.5">
+              <span>✍️ Your Casual / Noisy Input</span>
+            </label>
+            <div class="text-xs text-slate-400 space-x-2">
+              <span id="charCount">0 chars</span>
+              <span>·</span>
+              <span id="wordCount">0 words</span>
+            </div>
+          </div>
+          <textarea id="inputText" rows="6" placeholder="Type or paste your text here (e.g. 'can u send me the report today pls i need it')..." class="w-full bg-slate-900/60 border border-white/10 rounded-xl p-3.5 text-sm text-white placeholder-slate-500 focus:outline-none focus:border-brand-500 focus:ring-1 focus:ring-brand-500 transition resize-none"></textarea>
+        </div>
+
+        <!-- Controls & Buttons -->
+        <div class="mt-4 pt-4 border-t border-white/10 space-y-3">
+          <div class="flex items-center justify-between text-xs">
+            <!-- Model Choice -->
+            <div class="flex items-center space-x-2">
+              <span class="text-slate-400">Model:</span>
+              <select id="modelSelect" class="bg-slate-900 border border-white/10 text-slate-200 rounded-lg px-2.5 py-1 text-xs focus:outline-none focus:border-brand-500">
+                <option value="D_Pointer" selected>🧲 D_Pointer (Best · Copy + Coverage)</option>
+                <option value="C_Attention">🎯 C_Attention (Bahdanau)</option>
+                <option value="B_BiLSTM">↔️ B_BiLSTM</option>
+                <option value="A_LSTM">🧱 A_LSTM (Baseline)</option>
+              </select>
+            </div>
+
+            <!-- Decoding Strategy -->
+            <div class="flex items-center space-x-2">
+              <span class="text-slate-400">Decoding:</span>
+              <select id="decodingSelect" class="bg-slate-900 border border-white/10 text-slate-200 rounded-lg px-2.5 py-1 text-xs focus:outline-none focus:border-brand-500">
+                <option value="greedy" selected>Greedy (Fast)</option>
+                <option value="beam">Beam Search (k=3)</option>
+              </select>
+            </div>
+          </div>
+
+          <!-- Buttons -->
+          <div class="flex items-center space-x-3">
+            <button id="btnImprove" onclick="submitImprove()" class="flex-1 py-3 px-4 rounded-xl bg-gradient-to-r from-brand-600 to-pink-600 hover:from-brand-500 hover:to-pink-500 text-white font-bold text-sm glow-btn flex items-center justify-center space-x-2 transition">
+              <span id="btnIcon">✨</span>
+              <span id="btnText">Improve My Text</span>
+            </button>
+            <button onclick="submitCompare()" title="Compare with all 4 Seq2Seq models" class="py-3 px-3.5 rounded-xl bg-white/5 hover:bg-white/10 border border-white/10 text-slate-300 hover:text-white text-xs font-semibold transition flex items-center space-x-1.5">
+              <span>🔬 Compare 4</span>
+            </button>
+            <button onclick="clearInput()" title="Clear text" class="py-3 px-3 rounded-xl bg-white/5 hover:bg-red-500/20 border border-white/10 text-slate-400 hover:text-red-300 transition">
+              🗑️
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Output Column -->
+      <div class="glass-card rounded-2xl p-5 flex flex-col justify-between">
+        <div>
+          <div class="flex items-center justify-between mb-2.5">
+            <span class="text-xs font-bold text-slate-300 uppercase tracking-wider flex items-center space-x-1.5">
+              <span>🎯 Professional Rewrite</span>
+            </span>
+            <div id="metaBadges" class="flex items-center space-x-2">
+              <!-- Confidence badge & latency injected here -->
+            </div>
+          </div>
+
+          <!-- Output Box -->
+          <div id="outputBox" class="min-h-[148px] bg-slate-900/60 border border-white/10 rounded-xl p-4 text-sm text-slate-200 relative group flex items-center justify-center text-center">
+            <span class="text-slate-500 italic">Click "Improve My Text" to generate professional output...</span>
+          </div>
+
+          <!-- Copied Tokens Notification -->
+          <div id="copiedTokensBox" class="hidden mt-3 p-2.5 rounded-lg bg-pink-500/10 border border-pink-500/20 text-xs text-pink-200 flex items-center space-x-2">
+            <span>🧲 <strong>Copied from input:</strong></span>
+            <span id="copiedTokensList" class="font-mono text-pink-300 font-semibold"></span>
+          </div>
+        </div>
+
+        <!-- Copy Output Button -->
+        <div class="mt-4 pt-4 border-t border-white/10 flex items-center justify-between">
+          <div class="text-xs text-slate-400" id="statusMessage">Ready.</div>
+          <button id="btnCopy" onclick="copyOutput()" disabled class="px-3.5 py-1.5 rounded-lg bg-white/5 hover:bg-white/10 disabled:opacity-40 disabled:cursor-not-allowed border border-white/10 text-xs font-medium text-slate-300 hover:text-white flex items-center space-x-1.5 transition">
+            <span id="copyIcon">📋</span>
+            <span id="copyText">Copy Result</span>
+          </button>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Academic Multi-Model Comparison Section (Hidden by default, shown when clicking Compare) -->
+    <div id="comparisonSection" class="hidden mt-8">
+      <div class="glass-card rounded-2xl p-6">
+        <div class="flex items-center justify-between mb-4 border-b border-white/10 pb-3">
+          <div>
+            <h3 class="text-base font-bold text-white flex items-center space-x-2">
+              <span>🔬 Multi-Model Academic Evaluation</span>
+            </h3>
+            <p class="text-xs text-purple-300/70">Simultaneous inference across all 4 architectures trained from scratch.</p>
+          </div>
+          <button onclick="closeComparison()" class="text-xs text-slate-400 hover:text-white p-1">✕ Close</button>
+        </div>
+        <div id="comparisonGrid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+          <!-- Injected via JavaScript -->
+        </div>
+      </div>
+    </div>
+
+    <!-- Metrics Showcase Footer -->
+    <div class="mt-10 grid grid-cols-2 sm:grid-cols-4 gap-4">
+      <div class="glass-card rounded-xl p-3.5 text-center">
+        <div class="text-xl font-extrabold text-purple-400">66.35</div>
+        <div class="text-xs text-slate-400 mt-0.5">Test BLEU (D_Pointer)</div>
+      </div>
+      <div class="glass-card rounded-xl p-3.5 text-center">
+        <div class="text-xl font-extrabold text-pink-400">85.29 %</div>
+        <div class="text-xs text-slate-400 mt-0.5">OOV Copy Accuracy</div>
+      </div>
+      <div class="glass-card rounded-xl p-3.5 text-center">
+        <div class="text-xl font-extrabold text-emerald-400">88.71 %</div>
+        <div class="text-xs text-slate-400 mt-0.5">Fact Recall Score</div>
+      </div>
+      <div class="glass-card rounded-xl p-3.5 text-center">
+        <div class="text-xl font-extrabold text-blue-400">~27 ms</div>
+        <div class="text-xs text-slate-400 mt-0.5">Avg Inference Latency</div>
+      </div>
+    </div>
+
+  </main>
+
+  <!-- Application Logic (Vanilla JavaScript, 0 Dependencies, Lightning Fast) -->
+  <script>
+    const inputEl = document.getElementById('inputText');
+    const charCountEl = document.getElementById('charCount');
+    const wordCountEl = document.getElementById('wordCount');
+    const outputBox = document.getElementById('outputBox');
+    const metaBadges = document.getElementById('metaBadges');
+    const btnImprove = document.getElementById('btnImprove');
+    const btnText = document.getElementById('btnText');
+    const btnIcon = document.getElementById('btnIcon');
+    const btnCopy = document.getElementById('btnCopy');
+    const copyText = document.getElementById('copyText');
+    const statusMessage = document.getElementById('statusMessage');
+    const copiedBox = document.getElementById('copiedTokensBox');
+    const copiedList = document.getElementById('copiedTokensList');
+
+    let currentResult = '';
+
+    // Live word and character counting
+    inputEl.addEventListener('input', () => {
+      const val = inputEl.value;
+      charCountEl.innerText = `${val.length} chars`;
+      const words = val.trim().split(/\s+/).filter(Boolean);
+      wordCountEl.innerText = `${words.length} words`;
+    });
+
+    function setExample(text) {
+      inputEl.value = text;
+      inputEl.dispatchEvent(new Event('input'));
+      submitImprove();
+    }
+
+    function clearInput() {
+      inputEl.value = '';
+      inputEl.dispatchEvent(new Event('input'));
+      outputBox.innerHTML = '<span class="text-slate-500 italic">Click "Improve My Text" to generate professional output...</span>';
+      outputBox.className = "min-h-[148px] bg-slate-900/60 border border-white/10 rounded-xl p-4 text-sm text-slate-200 relative group flex items-center justify-center text-center";
+      metaBadges.innerHTML = '';
+      copiedBox.classList.add('hidden');
+      btnCopy.disabled = true;
+      statusMessage.innerText = 'Ready.';
+    }
+
+    async function submitImprove() {
+      const text = inputEl.value.trim();
+      if (!text) {
+        statusMessage.innerText = '⚠️ Please enter some text first.';
+        inputEl.focus();
+        return;
+      }
+
+      const model = document.getElementById('modelSelect').value;
+      const decoding = document.getElementById('decodingSelect').value;
+
+      // UI Loading state
+      btnImprove.disabled = true;
+      btnText.innerText = 'Processing...';
+      btnIcon.innerHTML = `<svg class="animate-spin h-4 w-4 text-white" viewBox="0 0 24 24"><circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle><path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path></svg>`;
+      statusMessage.innerText = 'Running neural generation...';
+
+      const t0 = performance.now();
+
+      try {
+        const response = await fetch('/api/improve', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ text, model, decoding })
+        });
+
+        const data = await response.json();
+
+        if (!response.ok) {
+          throw new Error(data.error || 'Server error occurred.');
+        }
+
+        currentResult = data.output;
+        const totalMs = Math.round(performance.now() - t0);
+
+        // Render Output text
+        outputBox.className = "min-h-[148px] bg-slate-900/80 border border-purple-500/30 rounded-xl p-4 text-base font-medium text-white flex items-center text-left";
+        outputBox.innerText = data.output;
+        btnCopy.disabled = false;
+
+        // Render Confidence Badge
+        let badgeColor = 'bg-emerald-500/10 text-emerald-400 border-emerald-500/30';
+        let confIcon = '🟢';
+        let confLabel = 'High Confidence';
+        if (data.confidence === 'medium') {
+          badgeColor = 'bg-amber-500/10 text-amber-400 border-amber-500/30';
+          confIcon = '🟡';
+          confLabel = 'Medium Confidence';
+        } else if (data.confidence === 'low') {
+          badgeColor = 'bg-rose-500/10 text-rose-400 border-rose-500/30';
+          confIcon = '🔴';
+          confLabel = 'Low Confidence';
+        }
+
+        metaBadges.innerHTML = `
+          <span class="inline-flex items-center px-2 py-0.5 rounded-full text-xs font-semibold ${badgeColor} border" title="Mean log-prob: ${data.mean_logp}">
+            ${confIcon} ${confLabel}
+          </span>
+          <span class="inline-flex items-center px-2 py-0.5 rounded-full text-xs font-mono bg-purple-900/40 text-purple-300 border border-purple-500/20">
+            ⚡ ${data.latency_ms} ms
+          </span>
+        `;
+
+        // Render Copied Tokens (Pointer-Generator Feature)
+        if (data.copied_oov && data.copied_oov.length > 0) {
+          copiedBox.classList.remove('hidden');
+          copiedList.innerText = data.copied_oov.join(', ');
+        } else {
+          copiedBox.classList.add('hidden');
+        }
+
+        statusMessage.innerText = `Generated in ${data.latency_ms}ms (Total roundtrip: ${totalMs}ms)`;
+
+      } catch (err) {
+        outputBox.className = "min-h-[148px] bg-rose-950/20 border border-rose-500/30 rounded-xl p-4 text-sm text-rose-300 flex items-center justify-center text-center";
+        outputBox.innerText = `Error: ${err.message}`;
+        metaBadges.innerHTML = '';
+        copiedBox.classList.add('hidden');
+        btnCopy.disabled = true;
+        statusMessage.innerText = 'Generation failed.';
+      } finally {
+        btnImprove.disabled = false;
+        btnText.innerText = 'Improve My Text';
+        btnIcon.innerText = '✨';
+      }
+    }
+
+    async function submitCompare() {
+      const text = inputEl.value.trim();
+      if (!text) {
+        statusMessage.innerText = '⚠️ Please enter text to compare across models.';
+        inputEl.focus();
+        return;
+      }
+
+      const compSection = document.getElementById('comparisonSection');
+      const compGrid = document.getElementById('comparisonGrid');
+      compSection.classList.remove('hidden');
+      compGrid.innerHTML = '<div class="col-span-4 text-center py-6 text-sm text-purple-300 animate-pulse">Running all 4 models in parallel...</div>';
+
+      try {
+        const response = await fetch('/api/compare', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ text })
+        });
+        const data = await response.json();
+
+        if (!data.success) throw new Error(data.error);
+
+        compGrid.innerHTML = data.comparison.map(item => `
+          <div class="glass-card rounded-xl p-4 border border-white/10 flex flex-col justify-between" style="border-top: 3px solid ${item.color || '#8b5cf6'}">
+            <div>
+              <div class="flex items-center justify-between mb-2">
+                <span class="text-xs font-bold text-white flex items-center space-x-1">
+                  <span>${item.emoji || '🤖'}</span>
+                  <span>${item.model}</span>
+                </span>
+                <span class="text-[11px] font-mono text-purple-300">${item.latency_ms || 0} ms</span>
+              </div>
+              <p class="text-[11px] text-slate-400 mb-3 leading-relaxed">${item.desc || ''}</p>
+              <div class="bg-slate-900/80 rounded-lg p-2.5 text-xs text-slate-200 min-h-[60px] flex items-center">
+                ${item.success ? item.output : `<span class="text-rose-400">${item.error}</span>`}
+              </div>
+            </div>
+            ${item.copied_oov && item.copied_oov.length ? `
+              <div class="mt-2 text-[10px] text-pink-300">
+                Copied: <strong>${item.copied_oov.join(', ')}</strong>
+              </div>
+            ` : ''}
+          </div>
+        `).join('');
+
+      } catch (err) {
+        compGrid.innerHTML = `<div class="col-span-4 text-center py-6 text-sm text-rose-400">Error: ${err.message}</div>`;
+      }
+    }
+
+    function closeComparison() {
+      document.getElementById('comparisonSection').classList.add('hidden');
+    }
+
+    function copyOutput() {
+      if (!currentResult) return;
+      navigator.clipboard.writeText(currentResult).then(() => {
+        copyText.innerText = 'Copied!';
+        setTimeout(() => copyText.innerText = 'Copy Result', 2000);
+      });
+    }
+  </script>
+</body>
+</html>
